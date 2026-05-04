@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NYC Hospital Price Explorer — Price map by category</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-sigil" aria-hidden="true"><div class="brand-sigil-dot"></div></div>
+      <div class="brand-mark-block">
+        <div class="brand-eyebrow">New York City</div>
+        <div class="brand-title">Hospital Price Explorer</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a class="nav-item" href="index.html">Compare</a>
+      <div class="nav-item active">Price Map</div>
+      <a class="nav-item" href="insurer-rates.html">Insurer Rates</a>
+      <a class="nav-item" href="about.html">About</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme" type="button">
+        <svg class="theme-icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <svg class="theme-icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </nav>
+  </div>
+
+  <div class="section-head">
+    <div class="deco-num" aria-hidden="true">02</div>
+    <div class="section-title-block">
+      <div class="section-num">procedure × hospital matrix</div>
+      <h2 class="section-title">Price map by category</h2>
+      <div class="section-sub">Each row shows hospital prices for procedures in the selected category &mdash; from <b style="color:#6EE7B7;font-weight:500">cheapest</b> to <b style="color:#FB7185;font-weight:500">most expensive</b>. Each column shows which hospitals are consistently <b style="color:#6EE7B7;font-weight:500">cheaper</b> or <b style="color:#FB7185;font-weight:500">pricier</b> in this category. Tap any cell to open it in Compare.</div>
+    </div>
+    <div class="section-action"><div class="live-dot" aria-hidden="true"></div>Geo &middot; live</div>
+  </div>
+
+  <div class="price-tabs">
+    <div class="tab-group">
+      <div class="ptab on">Gross charge</div>
+      <div class="ptab">Cash price</div>
+    </div>
+    <div class="tab-desc" data-tab="gross">
+      <div class="tab-desc-main">The hospital&rsquo;s full chargemaster list price &mdash; before any discounts or insurance negotiations.</div>
+      <div class="tab-desc-foot">These prices reflect hospital facility charges only: room, equipment, supplies, and services provided by nurses and technicians. Physician professional fees are not included &mdash; they are billed separately and depend on multiple factors.</div>
+    </div>
+    <div class="tab-desc" data-tab="cash" hidden>
+      <div class="tab-desc-main">The reduced price the hospital offers to uninsured patients paying out of pocket.</div>
+      <div class="tab-desc-foot">These prices reflect hospital facility charges only: room, equipment, supplies, and services provided by nurses and technicians. Physician professional fees are not included &mdash; they are billed separately and depend on multiple factors.</div>
+    </div>
+  </div>
+
+  <div class="matrix-toolbar">
+    <div class="cat-label">Category</div>
+    <div class="cat-chips">
+      <div class="chip on"><div class="chip-dot"></div>Radiology</div>
+      <div class="chip">Lab tests</div>
+      <div class="chip">Surgery</div>
+      <div class="chip">Cardiology</div>
+      <div class="chip">Therapy</div>
+      <div class="chip">Office visits</div>
+    </div>
+    <div class="toolbar-meta">
+      <span><b>8</b> procedures &middot; <b>10</b> hospitals</span>
+      <div class="sort-pill">Lowest first <span class="caret">&#9662;</span></div>
+      <div class="reset-pill" id="resetBtn" hidden>×&nbsp;Clear selection</div>
+    </div>
+  </div>
+
+  <div class="matrix-section">
+    <div class="matrix-wrap">
+      <table class="matrix">
+        <thead>
+          <tr>
+            <th class="proc-col">Procedure</th>
+            <th class="th-hosp" data-col="1" title="BronxCare Health System">BronxCare</th>
+            <th class="th-hosp" data-col="2" title="Brookdale Hospital Medical Center">Brookdale</th>
+            <th class="th-hosp" data-col="3" title="Kingsbrook Jewish Medical Center">Kingsbrook</th>
+            <th class="th-hosp" data-col="4" title="St. Barnabas Hospital">St. Barnabas</th>
+            <th class="th-hosp" data-col="5" title="Bellevue Hospital Center">Bellevue</th>
+            <th class="th-hosp" data-col="6" title="Montefiore Medical Center">Montefiore</th>
+            <th class="th-hosp" data-col="7" title="Englewood Health">Englewood</th>
+            <th class="th-hosp" data-col="8" title="NYU Langone Brooklyn">NYU Brooklyn</th>
+            <th class="th-hosp" data-col="9" title="NYU Langone Tisch Hospital">NYU Tisch</th>
+            <th class="th-hosp" data-col="10" title="NYU Langone Long Island">NYU Long Island</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="proc-name"><span class="pn">CT Head/Brain without Contrast</span><span class="pc">CPT 70450</span></td>
+            <td class="cell c-lo">$290</td>
+            <td class="cell c-lo">$283</td>
+            <td class="cell c-lo">$283</td>
+            <td class="cell c-md">$330</td>
+            <td class="cell c-md">$1,287</td>
+            <td class="cell c-md">$1,964</td>
+            <td class="cell c-md">$2,108</td>
+            <td class="cell c-hi">$3,562</td>
+            <td class="cell c-hi">$3,562</td>
+            <td class="cell c-hi">$4,891</td>
+          </tr>
+          <tr>
+            <td class="proc-name"><span class="pn">CT Chest without Contrast</span><span class="pc">CPT 71250</span></td>
+            <td class="cell c-lo">$290</td>
+            <td class="cell c-lo">$283</td>
+            <td class="cell c-lo">$283</td>
+            <td class="cell c-md">$315</td>
+            <td class="cell c-md">$1,243</td>
+            <td class="cell c-md">$1,892</td>
+            <td class="cell c-md">$2,041</td>
+            <td class="cell c-hi">$3,389</td>
+            <td class="cell c-hi">$3,389</td>
+            <td class="cell c-hi">$4,712</td>
+          </tr>
+          <tr>
+            <td class="proc-name"><span class="pn">MRI Brain with and without Contrast</span><span class="pc">CPT 70553</span></td>
+            <td class="cell c-lo">$978</td>
+            <td class="cell c-lo">$1,138</td>
+            <td class="cell c-lo">$1,138</td>
+            <td class="cell c-md">$1,156</td>
+            <td class="cell c-md">$2,643</td>
+            <td class="cell c-md">$6,527</td>
+            <td class="cell c-md">$7,213</td>
+            <td class="cell c-hi">$9,301</td>
+            <td class="cell c-hi">$9,301</td>
+            <td class="cell c-hi">$12,541</td>
+          </tr>
+          <tr>
+            <td class="proc-name"><span class="pn">MRI Brain without Contrast</span><span class="pc">CPT 70551</span></td>
+            <td class="cell c-lo">$612</td>
+            <td class="cell c-lo">$675</td>
+            <td class="cell c-lo">$675</td>
+            <td class="cell c-md">$740</td>
+            <td class="cell c-md">$1,612</td>
+            <td class="cell c-md">$3,718</td>
+            <td class="cell c-md">$4,108</td>
+            <td class="cell c-hi">$5,419</td>
+            <td class="cell c-hi">$5,419</td>
+            <td class="cell c-hi">$7,432</td>
+          </tr>
+          <tr>
+            <td class="proc-name"><span class="pn">MRI Knee without Contrast</span><span class="pc">CPT 73721</span></td>
+            <td class="cell c-lo">$612</td>
+            <td class="cell c-lo">$675</td>
+            <td class="cell c-lo">$675</td>
+            <td class="cell c-md">$735</td>
+            <td class="cell c-md">$1,587</td>
+            <td class="cell c-md">$3,612</td>
+            <td class="cell c-md">$4,021</td>
+            <td class="cell c-hi">$5,228</td>
+            <td class="cell c-hi">$5,228</td>
+            <td class="cell c-hi">$7,213</td>
+          </tr>
+          <tr>
+            <td class="proc-name"><span class="pn">MRI Lumbar Spine without Contrast</span><span class="pc">CPT 72148</span></td>
+            <td class="cell c-lo">$612</td>
+            <td class="cell c-lo">$675</td>
+            <td class="cell c-lo">$675</td>
+            <td class="cell c-md">$745</td>
+            <td class="cell c-md">$1,608</td>
+            <td class="cell c-md">$3,705</td>
+            <td class="cell c-md">$4,094</td>
+            <td class="cell c-hi">$5,341</td>
+            <td class="cell c-hi">$5,341</td>
+            <td class="cell c-hi">$7,318</td>
+          </tr>
+          <tr>
+            <td class="proc-name"><span class="pn">Diagnostic Mammography Bilateral</span><span class="pc">CPT 77066</span></td>
+            <td class="cell c-lo">$106</td>
+            <td class="cell c-lo">$118</td>
+            <td class="cell c-lo">$118</td>
+            <td class="cell c-md">$135</td>
+            <td class="cell c-md">$285</td>
+            <td class="cell c-md">$612</td>
+            <td class="cell c-md">$682</td>
+            <td class="cell c-hi">$987</td>
+            <td class="cell c-hi">$987</td>
+            <td class="cell c-hi">$1,712</td>
+          </tr>
+          <tr>
+            <td class="proc-name"><span class="pn">Screening Mammogram Bilateral</span><span class="pc">CPT 77067</span></td>
+            <td class="cell c-lo">$81</td>
+            <td class="cell c-lo">$95</td>
+            <td class="cell c-lo">$95</td>
+            <td class="cell c-md">$112</td>
+            <td class="cell c-md">$241</td>
+            <td class="cell c-md">$528</td>
+            <td class="cell c-md">$591</td>
+            <td class="cell c-hi">$873</td>
+            <td class="cell c-hi">$873</td>
+            <td class="cell c-hi">$1,512</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="legend-row">
+    <div class="lg-item"><span class="lg-swatch lg-lo"></span>cheaper (rank 1&ndash;3)</div>
+    <div class="lg-item"><span class="lg-swatch lg-md"></span>middle (rank 4&ndash;7)</div>
+    <div class="lg-item"><span class="lg-swatch lg-hi"></span>pricier (rank 8&ndash;10)</div>
+    <div class="legend-tip"><b>Tip:</b> scan a hospital column top-to-bottom to see the pattern</div>
+  </div>
+
+  <div class="story-section">
+    <div class="story-card">
+      <h4>At a glance</h4>
+      <p><b class="lo">BronxCare</b>, <b class="lo">Brookdale</b>, and <b class="lo">Kingsbrook</b> columns are almost entirely green &mdash; these hospitals consistently rank among the cheapest for radiology. Their average price in this category runs 8&ndash;13&times; lower than at NYU Langone hospitals.</p>
+    </div>
+    <div class="story-card">
+      <h4>Consistently more expensive</h4>
+      <p><b class="hi">NYU Brooklyn</b>, <b class="hi">NYU Tisch</b>, and <b class="hi">NYU Long Island</b> columns are almost entirely red. That answers the question: are some hospitals systematically more expensive than others?</p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div>Source: hospital machine-readable files</div>
+    <div class="foot-status"><div class="live-dot" aria-hidden="true"></div>Powered by <a href="https://www.geobrowser.io/root" target="_blank" rel="noopener">Geo</a></div>
+  </div>
+
+</div>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>

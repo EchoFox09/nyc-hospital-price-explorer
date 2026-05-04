@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NYC Hospital Price Explorer — Compare prices by procedure</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-sigil" aria-hidden="true"><div class="brand-sigil-dot"></div></div>
+      <div class="brand-mark-block">
+        <div class="brand-eyebrow">New York City</div>
+        <div class="brand-title">Hospital Price Explorer</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="nav-item active">Compare</div>
+      <a class="nav-item" href="price-map.html">Price Map</a>
+      <a class="nav-item" href="insurer-rates.html">Insurer Rates</a>
+      <a class="nav-item" href="about.html">About</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme" type="button">
+        <svg class="theme-icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <svg class="theme-icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </nav>
+  </div>
+
+  <div class="section-head">
+    <div class="deco-num" aria-hidden="true">01</div>
+    <div class="section-title-block">
+      <div class="section-num">single-procedure comparison</div>
+      <h2 class="section-title">Compare prices by procedure</h2>
+      <div class="section-sub">Select a procedure on the left, then tap a hospital row in the table &mdash; its details will appear on the right.</div>
+    </div>
+    <div class="section-action"><div class="live-dot" aria-hidden="true"></div>Geo &middot; live</div>
+  </div>
+
+  <div class="price-tabs">
+    <div class="tab-group">
+      <div class="ptab on">Gross charge</div>
+      <div class="ptab">Cash price</div>
+    </div>
+    <div class="tab-desc" data-tab="gross">
+      <div class="tab-desc-main">The hospital&rsquo;s full chargemaster list price &mdash; before any discounts or insurance negotiations.</div>
+      <div class="tab-desc-foot">These prices reflect hospital facility charges only: room, equipment, supplies, and services provided by nurses and technicians. Physician professional fees are not included &mdash; they are billed separately and depend on multiple factors.</div>
+    </div>
+    <div class="tab-desc" data-tab="cash" hidden>
+      <div class="tab-desc-main">The reduced price the hospital offers to uninsured patients paying out of pocket.</div>
+      <div class="tab-desc-foot">These prices reflect hospital facility charges only: room, equipment, supplies, and services provided by nurses and technicians. Physician professional fees are not included &mdash; they are billed separately and depend on multiple factors.</div>
+    </div>
+  </div>
+
+  <div class="explorer">
+
+    <div class="col-picker">
+      <div class="search-box">
+        <div class="search-icon"></div>
+        <div class="search-text">Search procedures&hellip;</div>
+        <div class="kbd">/</div>
+      </div>
+      <div class="cat-label">Category</div>
+      <div class="cat-chips">
+        <div class="chip on"><div class="chip-dot"></div>Radiology</div>
+        <div class="chip">Lab tests</div>
+        <div class="chip">Surgery</div>
+        <div class="chip">Cardiology</div>
+        <div class="chip">Therapy</div>
+        <div class="chip">Office visits</div>
+      </div>
+      <div class="cat-count">8 procedures in this category</div>
+      <div class="proc-list">
+        <div class="proc-item"><div class="proc-name">CT Head/Brain without Contrast</div><div class="proc-cpt">CPT 70450</div></div>
+        <div class="proc-item"><div class="proc-name">CT Chest without Contrast</div><div class="proc-cpt">CPT 71250</div></div>
+        <div class="proc-item sel"><div class="proc-name">MRI Brain with and without Contrast</div><div class="proc-cpt">CPT 70553</div></div>
+        <div class="proc-item"><div class="proc-name">MRI Brain without Contrast</div><div class="proc-cpt">CPT 70551</div></div>
+        <div class="proc-item"><div class="proc-name">MRI Knee without Contrast</div><div class="proc-cpt">CPT 73721</div></div>
+        <div class="proc-item"><div class="proc-name">MRI Lumbar Spine without Contrast</div><div class="proc-cpt">CPT 72148</div></div>
+        <div class="proc-item"><div class="proc-name">Diagnostic Mammography Bilateral</div><div class="proc-cpt">CPT 77066</div></div>
+        <div class="proc-item"><div class="proc-name">Screening Mammogram Bilateral</div><div class="proc-cpt">CPT 77067</div></div>
+      </div>
+    </div>
+
+    <div class="col-compare">
+      <h3 class="cmp-title">MRI Brain with and without Contrast</h3>
+      <span class="tag cpt">CPT 70553</span>
+      <div class="cmp-desc">Brain MRI before and after gadolinium contrast combines detailed baseline images with enhanced sequences that highlight selected tissues and abnormal enhancement. This approach improves assessment of tumors, infection, inflammation, vascular abnormalities, postoperative change, multiple sclerosis activity, and other conditions where contrast changes interpretation.</div>
+
+
+      <div class="list-head">
+        <span class="list-head-l">Gross charge</span>
+        <div class="sort-pill">Lowest first <span class="caret">&#9662;</span></div>
+      </div>
+
+      <div class="row sel"><span class="r-rank">01</span><div class="r-name">BronxCare Health System</div><div class="r-bar"><div class="r-fill f-lo" style="width:8%"></div></div><div class="r-price c-lo">$978</div><div class="r-chevron">&#9656;</div></div>
+      <div class="row"><span class="r-rank">02</span><div class="r-name">Brookdale Hospital Medical Center</div><div class="r-bar"><div class="r-fill f-lo" style="width:9%"></div></div><div class="r-price c-lo">$1,138</div><div class="r-chevron">&#9656;</div></div>
+      <div class="row"><span class="r-rank">03</span><div class="r-name">Kingsbrook Jewish Medical Center</div><div class="r-bar"><div class="r-fill f-lo" style="width:9%"></div></div><div class="r-price c-lo">$1,138</div><div class="r-chevron">&#9656;</div></div>
+      <div class="row"><span class="r-rank">04</span><div class="r-name">St. Barnabas Hospital</div><div class="r-bar"><div class="r-fill f-md" style="width:9%"></div></div><div class="r-price c-md">$1,156</div><div class="r-chevron">&#9656;</div></div>
+      <div class="row"><span class="r-rank">05</span><div class="r-name">Bellevue Hospital Center</div><div class="r-bar"><div class="r-fill f-md" style="width:21%"></div></div><div class="r-price c-md">$2,643</div><div class="r-chevron">&#9656;</div></div>
+      <div class="row"><span class="r-rank">06</span><div class="r-name">Montefiore Medical Center</div><div class="r-bar"><div class="r-fill f-md" style="width:52%"></div></div><div class="r-price c-md">$6,527</div><div class="r-chevron">&#9656;</div></div>
+      <div class="row"><span class="r-rank">07</span><div class="r-name">Englewood Health</div><div class="r-bar"><div class="r-fill f-md" style="width:58%"></div></div><div class="r-price c-md">$7,213</div><div class="r-chevron">&#9656;</div></div>
+      <div class="row"><span class="r-rank">08</span><div class="r-name">NYU Langone Brooklyn</div><div class="r-bar"><div class="r-fill f-hi" style="width:74%"></div></div><div class="r-price c-hi">$9,301</div><div class="r-chevron">&#9656;</div></div>
+      <div class="row"><span class="r-rank">09</span><div class="r-name">NYU Langone Tisch Hospital</div><div class="r-bar"><div class="r-fill f-hi" style="width:74%"></div></div><div class="r-price c-hi">$9,301</div><div class="r-chevron">&#9656;</div></div>
+      <div class="row" style="border:none"><span class="r-rank">10</span><div class="r-name">NYU Langone Long Island</div><div class="r-bar"><div class="r-fill f-hi" style="width:100%"></div></div><div class="r-price c-hi">$12,541</div><div class="r-chevron">&#9656;</div></div>
+    </div>
+
+    <div class="col-details">
+      <div class="det-name">BronxCare Health System</div>
+      <div class="det-desc">Largest voluntary nonprofit hospital serving the South and Central Bronx &mdash; a safety-net teaching institution affiliated with the Icahn School of Medicine at Mount Sinai.</div>
+
+      <div class="det-props-card">
+        <div class="det-props-l">Hospital info</div>
+        <div class="det-props">
+          <div class="det-prop-row">
+            <span class="det-prop-l">Type</span>
+            <span class="det-prop-v">Private non-profit</span>
+          </div>
+          <div class="det-prop-row">
+            <span class="det-prop-l">System</span>
+            <span class="det-prop-v">BronxCare Health System</span>
+          </div>
+          <div class="det-prop-row">
+            <span class="det-prop-l">Address</span>
+            <span class="det-prop-v">1650 Selwyn Avenue, Bronx, NY 10457</span>
+          </div>
+          <div class="det-prop-row">
+            <span class="det-prop-l">Founded</span>
+            <span class="det-prop-v">1890</span>
+          </div>
+          <div class="det-prop-row">
+            <span class="det-prop-l">Website</span>
+            <span class="det-prop-v"><a href="https://www.bronxcare.org/" target="_blank" rel="noopener">bronxcare.org</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="foot">
+    <div>Source: hospital machine-readable files</div>
+    <div class="foot-status"><div class="live-dot" aria-hidden="true"></div>Powered by <a href="https://www.geobrowser.io/root" target="_blank" rel="noopener">Geo</a></div>
+  </div>
+
+</div>
+  <script src="app.js"></script>
+</body>
+</html>

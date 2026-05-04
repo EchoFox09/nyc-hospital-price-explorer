@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NYC Hospital Price Explorer — About this data</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-sigil" aria-hidden="true"><div class="brand-sigil-dot"></div></div>
+      <div class="brand-mark-block">
+        <div class="brand-eyebrow">New York City</div>
+        <div class="brand-title">Hospital Price Explorer</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a class="nav-item" href="index.html">Compare</a>
+      <a class="nav-item" href="price-map.html">Price Map</a>
+      <a class="nav-item" href="insurer-rates.html">Insurer Rates</a>
+      <div class="nav-item active">About</div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme" type="button">
+        <svg class="theme-icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <svg class="theme-icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </nav>
+  </div>
+
+  <div class="section-head">
+    <div class="deco-num" aria-hidden="true">04</div>
+    <div class="section-title-block">
+      <div class="section-num">methodology and sources</div>
+      <h2 class="section-title">About this data</h2>
+      <div class="section-sub">Where these prices come from, what they mean, and the limits of what they can tell you about your actual cost of care.</div>
+    </div>
+  </div>
+
+  <div class="about-wrap">
+    <div class="about-main">
+
+    <div class="about-section" id="sec-01">
+      <h3 class="about-h2" data-num="01">Where the data comes from</h3>
+      <p class="about-p">Since January 1, 2021, every U.S. hospital must publish a machine-readable file with the prices of all its services. This requirement comes from the federal <b>CMS Hospital Price Transparency Rule</b> (45 CFR § 180.50), intended to reduce the information asymmetry between hospitals and patients.</p>
+      <p class="about-p">We downloaded these files from 10 NYC hospitals, normalized the data, and published it in the open <a href="https://www.geobrowser.io/space/52c7ae149838b6d47ce0f3b2a5974546" target="_blank" rel="noopener">Health graph on Geo Protocol</a>. Relationships between procedures, hospitals, and prices are stored as primary data — the app reads them directly from the graph.</p>
+    </div>
+
+    <div class="about-section" id="sec-02">
+      <h3 class="about-h2" data-num="02">What's in the dataset</h3>
+      <div class="fact-card">
+        <div class="fact-cell">
+          <div class="fact-num">10</div>
+          <div class="fact-label">hospitals in NYC and the surrounding area</div>
+        </div>
+        <div class="fact-cell">
+          <div class="fact-num">57</div>
+          <div class="fact-label">common procedures across 6 categories</div>
+        </div>
+        <div class="fact-cell">
+          <div class="fact-num">556</div>
+          <div class="fact-label">price records — one per hospital × procedure pair</div>
+        </div>
+      </div>
+      <p class="about-p">The hospitals were chosen for diversity: a public safety-net (Bellevue) within NYC Health + Hospitals, community safety-net hospitals (BronxCare, St. Barnabas), a major academic system (NYU Langone), and independent or smaller-system nonprofits (Brookdale, Kingsbrook, Englewood, Montefiore). This gives a realistic spectrum of the city&rsquo;s pricing landscape.</p>
+      <p class="about-p">Procedures are identified by <b>CPT codes</b> (Current Procedural Terminology) — the U.S. industry standard for billing medical services. CPT codes make any procedure directly comparable across different hospitals.</p>
+    </div>
+
+    <div class="about-section" id="sec-03">
+      <h3 class="about-h2" data-num="03">What each price means</h3>
+      <div class="def-grid">
+        <div class="def-card">
+          <div class="def-l">GROSS CHARGE</div>
+          <h3>Full chargemaster list price</h3>
+          <p>The hospital&rsquo;s sticker price — before any discounts or insurance negotiations. Almost no one actually pays this, but it&rsquo;s the starting point for all other rates.</p>
+        </div>
+        <div class="def-card">
+          <div class="def-l">CASH PRICE</div>
+          <h3>Price for uninsured patients</h3>
+          <p>The amount the hospital will accept from a patient paying out of pocket. Often significantly lower than the gross charge.</p>
+        </div>
+        <div class="def-card">
+          <div class="def-l">MIN NEGOTIATED</div>
+          <h3>Minimum insurer rate</h3>
+          <p>The lowest amount any insurance company pays the hospital. Typically reflects contracts with major payers like Medicare and Medicaid.</p>
+        </div>
+        <div class="def-card">
+          <div class="def-l">MAX NEGOTIATED</div>
+          <h3>Maximum insurer rate</h3>
+          <p>The highest amount any insurance company pays the hospital. Often reflects out-of-network rates or less favorable contracts.</p>
+        </div>
+      </div>
+      <p class="about-p">All four prices reflect only the <b>hospital facility portion</b> of the service: room, equipment, supplies, and the work of nurses and technicians. Physician professional fees are not included — they are billed separately and depend on insurance and other factors.</p>
+    </div>
+
+    <div class="about-section" id="sec-04">
+      <h3 class="about-h2" data-num="04">What's not included</h3>
+      <ul class="about-list">
+        <li><b>Physician fees</b> — for primary care doctors, surgeons, anesthesiologists, radiologists. Billed separately on their own invoice.</li>
+        <li><b>Drugs, implants, and supplies beyond standard</b> — uncommon items in the CMS catalog.</li>
+        <li><b>Complications and extra inpatient days</b> — depend on individual circumstances.</li>
+        <li><b>Emergency admission surcharges</b> outside of a regular scheduled visit.</li>
+      </ul>
+    </div>
+
+    <div class="about-section" id="sec-05">
+      <h3 class="about-h2" data-num="05">Limitations</h3>
+      <p class="about-p"><b>Publication quality varies.</b> Hospitals are required to publish data, but format and completeness differ. We normalized the data into a common model, but the source files may contain gaps or errors from the hospital itself.</p>
+      <p class="about-p"><b>This is a snapshot in time.</b> Prices are published periodically and can change. Use this data as a reference, not as the final figure on your bill.</p>
+      <p class="about-p"><b>Your actual bill depends on your situation.</b> Insurance plan, deductible, co-pay, in-network status, complications, length of stay — all affect the amount you personally pay. Before a scheduled procedure, request a <i>good-faith estimate</i> from the hospital — you have the right to one under the <b>No Surprises Act</b>.</p>
+    </div>
+
+    <div class="about-section" id="sec-06">
+      <h3 class="about-h2" data-num="06">Data in the graph</h3>
+      <p class="about-p">All data is published as entities and relations in an open knowledge graph on Geo Protocol. This means:</p>
+      <ul class="about-list">
+        <li>Anyone can verify the data directly, without intermediaries</li>
+        <li>Relationships (hospital ↔ procedure ↔ price) are stored as primary data — not pieced together after the fact</li>
+        <li>Versioning, authorship, and edit history are preserved</li>
+        <li>Other applications can read the same graph for their own purposes</li>
+      </ul>
+      <div class="cta-row">
+        <div class="cta-text">
+          Browse the raw data in the graph — <b>10 hospitals, 57 procedures, 556 price records</b> with descriptions, addresses, and relationships.
+        </div>
+        <a href="https://www.geobrowser.io/space/52c7ae149838b6d47ce0f3b2a5974546" target="_blank" rel="noopener" class="cta-button">
+          Open the Health space <span class="cta-arrow">&rarr;</span>
+        </a>
+      </div>
+    </div>
+
+    </div><!-- /.about-main -->
+
+    <aside class="about-toc" aria-label="Section navigation">
+      <div class="toc-label">Sections</div>
+      <ol class="toc-list">
+        <li><a href="#sec-01"><span class="toc-num">01</span><span class="toc-text">Where the data comes from</span></a></li>
+        <li><a href="#sec-02"><span class="toc-num">02</span><span class="toc-text">What's in the dataset</span></a></li>
+        <li><a href="#sec-03"><span class="toc-num">03</span><span class="toc-text">What each price means</span></a></li>
+        <li><a href="#sec-04"><span class="toc-num">04</span><span class="toc-text">What's not included</span></a></li>
+        <li><a href="#sec-05"><span class="toc-num">05</span><span class="toc-text">Limitations</span></a></li>
+        <li><a href="#sec-06"><span class="toc-num">06</span><span class="toc-text">Data in the graph</span></a></li>
+      </ol>
+    </aside>
+
+  </div>
+
+  <div class="foot">
+    <div>Source: hospital machine-readable files</div>
+    <div class="foot-status"><div class="live-dot" aria-hidden="true"></div>Powered by <a href="https://www.geobrowser.io/root" target="_blank" rel="noopener">Geo</a></div>
+  </div>
+
+</div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5849 @@
+{
+  "meta": {
+    "generated_at": "2026-05-04T12:47:08.389Z",
+    "counts": {
+      "hospitals": 10,
+      "procedures": 57,
+      "prices": 556
+    },
+    "sources": {
+      "hospitals": "graph",
+      "procedures": "graph",
+      "prices": "graph"
+    }
+  },
+  "hospitals": [
+    {
+      "slug": "bellevue-hospital-center",
+      "name": "Bellevue Hospital Center",
+      "description": "Oldest public hospital in the United States — a full-service medical center in Manhattan within the NYC Health + Hospitals system and a teaching site for NYU Grossman School of Medicine.",
+      "type": "Public",
+      "system": "NYC Health + Hospitals",
+      "address": "462 First Avenue, New York, NY 10016",
+      "founded": "1736",
+      "website": "https://www.nychealthandhospitals.org/bellevue/"
+    },
+    {
+      "slug": "bronxcare-health-system",
+      "name": "BronxCare Health System",
+      "description": "Largest voluntary nonprofit hospital serving the South and Central Bronx — a safety-net teaching institution affiliated with the Icahn School of Medicine at Mount Sinai.",
+      "type": "Private non-profit",
+      "system": "BronxCare Health System",
+      "address": "1650 Grand Concourse, Bronx, NY 10457",
+      "founded": "1890",
+      "website": "https://www.bronxcare.org/"
+    },
+    {
+      "slug": "brookdale-hospital-medical-center",
+      "name": "Brookdale Hospital Medical Center",
+      "description": "Teaching hospital in the Brownsville neighborhood of Brooklyn — part of the One Brooklyn Health system, operating as a Level II trauma center and designated stroke center for East Brooklyn.",
+      "type": "Private non-profit",
+      "system": "One Brooklyn Health",
+      "address": "1 Brookdale Plaza, Brooklyn, NY 11212",
+      "founded": "1921",
+      "website": "https://www.brookdalehospital.org/"
+    },
+    {
+      "slug": "englewood-health",
+      "name": "Englewood Health",
+      "description": "Nonprofit teaching hospital in Englewood, New Jersey, with specialized programs in cardiac surgery and bloodless medicine — surgical techniques without blood transfusion.",
+      "type": "Private non-profit",
+      "system": "Englewood Health",
+      "address": "350 Engle Street, Englewood, NJ 07631",
+      "founded": "1890",
+      "website": "https://www.englewoodhealth.org/"
+    },
+    {
+      "slug": "kingsbrook-jewish-medical-center",
+      "name": "Kingsbrook Jewish Medical Center",
+      "description": "Community hospital in East Flatbush, Brooklyn — part of the One Brooklyn Health system, known for its rehabilitation institute with Brooklyn's only state-approved brain injury and coma recovery unit.",
+      "type": "Private non-profit",
+      "system": "One Brooklyn Health",
+      "address": "585 Schenectady Avenue, Brooklyn, NY 11203",
+      "founded": "1925",
+      "website": "https://www.kingsbrook.org/"
+    },
+    {
+      "slug": "montefiore-medical-center",
+      "name": "Montefiore Medical Center",
+      "description": "Academic medical center in the Bronx serving as the primary teaching hospital of Albert Einstein College of Medicine.",
+      "type": "Private non-profit",
+      "system": "Montefiore Health System",
+      "address": "111 East 210th Street, Bronx, NY 10467",
+      "founded": "1884",
+      "website": "https://www.montefiore.org/"
+    },
+    {
+      "slug": "nyu-langone-brooklyn",
+      "name": "NYU Langone Brooklyn",
+      "description": "Brooklyn campus of NYU Langone Health in Sunset Park — a Level I trauma center and the first certified comprehensive stroke center in Brooklyn.",
+      "type": "Private non-profit",
+      "system": "NYU Langone Health",
+      "address": "150 55th Street, Brooklyn, NY 11220",
+      "founded": "1883",
+      "website": "https://nyulangone.org/locations/nyu-langone-hospital-brooklyn"
+    },
+    {
+      "slug": "nyu-langone-long-island",
+      "name": "NYU Langone Long Island",
+      "description": "Oldest hospital on Long Island, now a 591-bed campus of NYU Langone Health in Mineola — a Level I trauma center and regional leader in diabetes care, home to the tuition-free NYU Grossman Long Island School of Medicine.",
+      "type": "Private non-profit",
+      "system": "NYU Langone Health",
+      "address": "259 First Street, Mineola, NY 11501",
+      "founded": "1896",
+      "website": "https://nyulangone.org/locations/nyu-langone-hospital-long-island"
+    },
+    {
+      "slug": "nyu-langone-tisch-hospital",
+      "name": "NYU Langone Tisch Hospital",
+      "description": "Flagship hospital of NYU Langone Health in midtown Manhattan — the primary teaching site for NYU Grossman School of Medicine, delivering highly specialized care across the full spectrum of medical and surgical disciplines.",
+      "type": "Private non-profit",
+      "system": "NYU Langone Health",
+      "address": "550 First Avenue, New York, NY 10016",
+      "founded": "1963",
+      "website": "https://nyulangone.org/locations/tisch-hospital"
+    },
+    {
+      "slug": "st-barnabas-hospital",
+      "name": "St. Barnabas Hospital",
+      "description": "Community safety-net hospital in the Belmont section of the Bronx — a Level II trauma center and teaching site for the CUNY School of Medicine.",
+      "type": "Private non-profit",
+      "system": "SBH Health System",
+      "address": "4422 Third Avenue, Bronx, NY 10457",
+      "founded": "1866",
+      "website": "https://www.sbhny.org/"
+    }
+  ],
+  "procedures": [
+    {
+      "slug": "breast-growth-removal-open",
+      "name": "Breast Growth Removal, Open",
+      "description": "Open excision removes a localized breast lesion while preserving surrounding breast tissue when possible. It is used for suspicious, cancerous, high-risk, or symptomatic noncancerous growths and provides tissue for pathology, helping guide diagnosis, margin assessment, and further treatment decisions.",
+      "cpt": "19120",
+      "categories": [
+        "Surgery/Procedures"
+      ],
+      "specialty": [
+        "General surgery"
+      ]
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip",
+      "name": "Joint Injection Major (Knee/Shoulder/Hip)",
+      "description": "Large-joint injection places medication such as corticosteroid and local anesthetic into the shoulder, hip, knee, or another major joint. It can reduce inflammation and pain from arthritis or bursitis and may help confirm whether symptoms are coming from inside the joint.",
+      "cpt": "20610",
+      "categories": [
+        "Therapy/Diagnostic"
+      ],
+      "specialty": [
+        "Emergency medicine",
+        "Internal medicine",
+        "Orthopedic surgery"
+      ]
+    },
+    {
+      "slug": "routine-venipuncture",
+      "name": "Routine Venipuncture",
+      "description": "Venous blood sampling collects blood from a vein for laboratory testing. Results support diagnosis, screening, monitoring of chronic conditions, medication safety checks, and evaluation of blood cells, electrolytes, proteins, glucose, clotting, organ function, or other clinically important markers.",
+      "cpt": "36415",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic",
+      "name": "Upper GI Endoscopy Diagnostic",
+      "description": "Flexible endoscopic examination visualizes the lining of the esophagus, stomach, and duodenum. It helps evaluate symptoms such as swallowing trouble, heartburn, vomiting, bleeding, pain, or suspected conditions including reflux disease, ulcers, celiac disease, Barrett’s esophagus, and cancer.",
+      "cpt": "43235",
+      "categories": [
+        "Surgery/Procedures"
+      ],
+      "specialty": [
+        "Gastroenterology"
+      ]
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy",
+      "name": "Upper GI Endoscopy with Biopsy",
+      "description": "Endoscopic biopsy of the upper gastrointestinal tract combines direct visualization with tissue sampling from the esophagus, stomach, or duodenum. It is important for diagnosing inflammation, infection, celiac disease, Barrett’s esophagus, precancerous changes, cancer, and other mucosal abnormalities.",
+      "cpt": "43239",
+      "categories": [
+        "Surgery/Procedures"
+      ],
+      "specialty": [
+        "Gastroenterology"
+      ]
+    },
+    {
+      "slug": "colonoscopy-diagnostic",
+      "name": "Colonoscopy Diagnostic",
+      "description": "Flexible endoscopic examination visualizes the rectum and colon to evaluate gastrointestinal symptoms, bleeding, bowel habit changes, abdominal pain, weight loss, polyps, inflammation, ulcers, or cancer. Findings can direct further testing, surveillance, biopsy, polyp removal, or treatment planning.",
+      "cpt": "45378",
+      "categories": [
+        "Surgery/Procedures"
+      ],
+      "specialty": [
+        "Gastroenterology"
+      ]
+    },
+    {
+      "slug": "prostate-biopsy",
+      "name": "Prostate Biopsy",
+      "description": "Needle sampling removes small cores of suspicious prostate tissue for microscopic examination. It is used when PSA results, digital rectal examination, imaging, or prior findings suggest possible prostate cancer, helping determine whether cancer is present and how aggressive it appears.",
+      "cpt": "55700",
+      "categories": [
+        "Surgery/Procedures"
+      ],
+      "specialty": [
+        "Pathology",
+        "Urology"
+      ]
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic",
+      "name": "Lumbar Puncture Diagnostic",
+      "description": "Cerebrospinal fluid sampling from the lower back helps diagnose infections, bleeding, cancers, inflammation, autoimmune neurological disease, and other central nervous system disorders. Measuring fluid pressure or analyzing collected fluid can provide information not available from blood tests or imaging alone.",
+      "cpt": "62270",
+      "categories": [
+        "Therapy/Diagnostic"
+      ],
+      "specialty": [
+        "Emergency medicine",
+        "Internal medicine",
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance",
+      "name": "Spinal Injection with Imaging Guidance",
+      "description": "Image-guided lumbar or sacral spinal injection places medication into the epidural or related spinal space to evaluate or reduce back, leg, or nerve-related pain. Imaging and contrast improve needle placement accuracy, supporting both diagnostic localization and therapeutic pain relief.",
+      "cpt": "62323",
+      "categories": [
+        "Therapy/Diagnostic"
+      ],
+      "specialty": [
+        "Anesthesiology",
+        "Neurosurgery",
+        "Orthopedic surgery",
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging",
+      "name": "Epidural Steroid Injection with Imaging",
+      "description": "Transforaminal epidural injection targets an irritated lumbar or sacral nerve root with steroid, anesthetic, or both. It can reduce inflammation-related radiating pain and may help confirm whether a specific spinal nerve is the source of symptoms.",
+      "cpt": "64483",
+      "categories": [
+        "Therapy/Diagnostic"
+      ],
+      "specialty": [
+        "Anesthesiology",
+        "Neurosurgery",
+        "Orthopedic surgery",
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract",
+      "name": "YAG Laser Capsulotomy (Secondary Cataract)",
+      "description": "Laser posterior capsulotomy restores clearer vision when posterior capsule opacification clouds or wrinkles the lens capsule after cataract surgery. Opening the capsule behind the intraocular lens lets light pass through again, making it important for treating recurrent blur without replacing the implanted lens.",
+      "cpt": "66821",
+      "categories": [
+        "Surgery/Procedures"
+      ],
+      "specialty": [
+        "Ophthalmology"
+      ]
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion",
+      "name": "Cataract Surgery with Lens Insertion",
+      "description": "Clouded natural lens removal treats cataract-related blurry, hazy, or less colorful vision when symptoms interfere with needed activities. Replacing the lens with a clear intraocular lens improves light focusing, and preoperative measurements help select the lens power for functional visual recovery.",
+      "cpt": "66984",
+      "categories": [
+        "Surgery/Procedures"
+      ],
+      "specialty": [
+        "Ophthalmology"
+      ]
+    },
+    {
+      "slug": "ct-headbrain-without-contrast",
+      "name": "CT Head/Brain without Contrast",
+      "description": "Noncontrast head computed tomography uses rotating x-ray beams and computer processing to create cross-sectional images of the brain, skull, and related structures. Rapid imaging is valuable for evaluating head injury, severe headache, suspected intracranial bleeding, stroke symptoms, skull fracture, hydrocephalus, or brain mass effect.",
+      "cpt": "70450",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "mri-brain-without-contrast",
+      "name": "MRI Brain without Contrast",
+      "description": "Noncontrast brain magnetic resonance imaging uses a strong magnetic field, radio waves, and computer processing to produce detailed brain pictures without ionizing radiation. It helps evaluate seizures, headaches, neurologic deficits, trauma, vision changes, and conditions such as tumors, stroke, infection, hydrocephalus, and multiple sclerosis.",
+      "cpt": "70551",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast",
+      "name": "MRI Brain with and without Contrast",
+      "description": "Brain MRI before and after gadolinium contrast combines detailed baseline images with enhanced sequences that highlight selected tissues and abnormal enhancement. This approach improves assessment of tumors, infection, inflammation, vascular abnormalities, postoperative change, multiple sclerosis activity, and other conditions where contrast changes interpretation.",
+      "cpt": "70553",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "chest-x-ray-2-views",
+      "name": "Chest X-ray 2 Views",
+      "description": "Small-dose chest radiography creates frontal and lateral images of the lungs, heart, airways, vessels, chest wall, ribs, and spine. It supports rapid evaluation of cough, fever, chest pain, shortness of breath, injury, pneumonia, heart failure, fluid or air around the lungs, and medical device position.",
+      "cpt": "71046",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "ct-chest-without-contrast",
+      "name": "CT Chest without Contrast",
+      "description": "Cross-sectional chest CT without contrast uses rotating x-ray beams and computer reconstruction to show the lungs, mediastinum, chest wall, ribs, spine, and major thoracic structures. It helps evaluate abnormal chest radiographs, unexplained respiratory symptoms, lung nodules, infection, trauma, tumors, interstitial disease, and other chest conditions.",
+      "cpt": "71250",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views",
+      "name": "X-ray Lumbar Spine 4+ Views",
+      "description": "Multi-view lumbar spine radiography images the lower vertebrae from several angles to assess bony alignment, fractures, degenerative disk or joint changes, arthritis, spondylolisthesis, curvature abnormalities, and causes of low back pain. Additional views improve visualization of structures that may be hidden on a single projection.",
+      "cpt": "72110",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast",
+      "name": "MRI Lumbar Spine without Contrast",
+      "description": "Noncontrast lumbar spine MRI uses magnetic fields, radiofrequency pulses, and computer processing to produce detailed images of vertebrae, disks, spinal canal, nerve roots, and surrounding soft tissues. It is useful for evaluating lower back pain, sciatica, disk disease, spinal stenosis, nerve compression, trauma, and compression fracture without ionizing radiation.",
+      "cpt": "72148",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "ct-pelvis-with-contrast",
+      "name": "CT Pelvis with Contrast",
+      "description": "Contrast-enhanced pelvic CT uses x-rays, computer reconstruction, and iodinated contrast to show pelvic organs, bowel, bladder, reproductive structures, vessels, lymph nodes, bones, and soft tissues. It helps evaluate pelvic pain, infection, trauma, tumors, inflammatory disease, urinary or reproductive disorders, and cancer staging or treatment response.",
+      "cpt": "72193",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "mri-shoulder-without-contrast",
+      "name": "MRI Shoulder without Contrast",
+      "description": "Magnetic resonance imaging of the shoulder creates detailed images of bones, tendons, muscles, blood vessels, and other joint structures without ionizing radiation or contrast material. It is important for evaluating rotator cuff tears, labral injuries, trauma, infection, tumors, unexplained pain, and postoperative changes.",
+      "cpt": "73221",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "mri-knee-without-contrast",
+      "name": "MRI Knee without Contrast",
+      "description": "Magnetic resonance imaging of the knee produces detailed views of cartilage, menisci, ligaments, tendons, muscles, bones, and blood vessels without ionizing radiation or contrast material. It is important for assessing pain, swelling, traumatic injuries, arthritis-related damage, occult fractures, infection, tumors, and the need for surgery.",
+      "cpt": "73721",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "ct-abdomen-without-contrast",
+      "name": "CT Abdomen without Contrast",
+      "description": "Computed tomography of the abdomen without contrast creates cross-sectional x-ray images of abdominal organs, soft tissues, bones, and blood vessels. It is important for quickly evaluating abdominal pain, suspected stones, injury, infection, inflammation, tumors, and other conditions when contrast is not required or should be avoided.",
+      "cpt": "74150",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast",
+      "name": "CT Abdomen and Pelvis with Contrast",
+      "description": "Computed tomography of the abdomen and pelvis with contrast creates enhanced cross-sectional images of internal organs, bowel, urinary tract, reproductive organs, blood vessels, and soft tissues. It is important for diagnosing pain, infection, inflammation, trauma, cancer, bleeding, stones, aneurysm, and treatment or surgical planning.",
+      "cpt": "74177",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "ultrasound-thyroid",
+      "name": "Ultrasound Thyroid",
+      "description": "High-frequency sound waves create real-time images of the thyroid gland and nearby neck structures without ionizing radiation. Findings are important for evaluating palpable lumps, thyroid nodules, nodule growth, suspicious features requiring biopsy, and guidance for certain needle-based thyroid procedures.",
+      "cpt": "76536",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "ultrasound-breast",
+      "name": "Ultrasound Breast",
+      "description": "Sound-wave imaging evaluates breast tissue for lumps, focal pain, nipple discharge, or abnormalities seen on mammography or MRI. Real-time images help distinguish solid masses from fluid-filled cysts, guide follow-up decisions, and provide diagnostic information without ionizing radiation.",
+      "cpt": "76642",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "ultrasound-abdomen-complete",
+      "name": "Ultrasound Abdomen Complete",
+      "description": "Sound-wave examination surveys major upper abdominal structures, including the liver, gallbladder, bile ducts, pancreas, spleen, kidneys, and abdominal aorta. Findings can help evaluate abdominal pain, distention, abnormal liver tests, stones, organ enlargement, aneurysm, or other suspected disease without ionizing radiation.",
+      "cpt": "76700",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks",
+      "name": "OB Ultrasound (>=14 weeks)",
+      "description": "Prenatal sonography after the first trimester images the fetus, uterus, ovaries, placenta, and amniotic fluid. It supports gestational dating, fetal growth assessment, evaluation of fetal position and heart activity, screening for major congenital anomalies, and monitoring of pregnancy without ionizing radiation.",
+      "cpt": "76805",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Obstetrics and gynecology",
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant",
+      "name": "Ultrasound Transvaginal (Non-Pregnant)",
+      "description": "Pelvic sonography with an internal vaginal transducer provides detailed views of the uterus, endometrium, myometrium, cervix, ovaries, and fallopian tubes. It helps evaluate pelvic pain, abnormal bleeding, infertility, fibroids, polyps, ovarian cysts or masses, and other gynecologic concerns.",
+      "cpt": "76830",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Obstetrics and gynecology",
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral",
+      "name": "Diagnostic Mammography Unilateral",
+      "description": "Low-dose x-ray imaging of one breast evaluates symptoms such as a lump, pain, skin dimpling, or nipple discharge, or clarifies an abnormal screening result. Targeted diagnostic views help radiologists characterize breast findings and determine whether additional imaging, short-interval follow-up, or biopsy is needed.",
+      "cpt": "77065",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral",
+      "name": "Diagnostic Mammography Bilateral",
+      "description": "Bilateral diagnostic breast imaging uses low-dose x-rays to evaluate both breasts when symptoms, abnormal findings, or a prior screening concern need targeted assessment. Images help radiologists characterize masses, calcifications, asymmetry, or other changes and guide decisions about follow-up imaging, biopsy, or clinical management.",
+      "cpt": "77066",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "screening-mammogram-bilateral",
+      "name": "Screening Mammogram Bilateral",
+      "description": "Bilateral screening breast imaging uses low-dose x-rays to examine both breasts for cancer before symptoms are present. Regular screening can reveal tissue changes years before they are palpable, supporting earlier diagnosis and treatment planning when curative therapy is more likely.",
+      "cpt": "77067",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "dexa-bone-density",
+      "name": "DEXA Bone Density",
+      "description": "Dual-energy bone density testing uses very low-dose x-rays, most often at the lumbar spine and hips, to measure bone mineral density. Results help diagnose osteoporosis, estimate fracture risk, and monitor treatment response in people with bone loss risk factors or prior fragility fractures.",
+      "cpt": "77080",
+      "categories": [
+        "Imaging"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Orthopedic surgery",
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "basic-metabolic-panel",
+      "name": "Basic Metabolic Panel",
+      "description": "Laboratory chemistry testing measures eight blood substances, including glucose, calcium, electrolytes, blood urea nitrogen, and creatinine. Results provide a compact assessment of fluid and acid-base balance, kidney function, metabolism, and glucose status for routine screening, emergency evaluation, or monitoring chronic conditions.",
+      "cpt": "80048",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Emergency medicine",
+        "Internal medicine",
+        "Nephrology",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "comprehensive-metabolic-panel",
+      "name": "Comprehensive Metabolic Panel",
+      "description": "Broad blood chemistry testing measures 14 substances, combining electrolyte, kidney, glucose, protein, bilirubin, and liver enzyme results in one panel. Findings help evaluate overall metabolic status, liver and kidney health, fluid balance, treatment effects, and possible causes of nonspecific symptoms.",
+      "cpt": "80053",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Emergency medicine",
+        "Gastroenterology",
+        "Internal medicine",
+        "Nephrology",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "lipid-panel",
+      "name": "Lipid Panel",
+      "description": "Blood-based lipid profile measurement quantifies total cholesterol, HDL cholesterol, LDL cholesterol, and triglycerides to help estimate cardiovascular risk, guide prevention strategies, and monitor response to lifestyle changes or lipid-lowering therapy in patients with known or suspected dyslipidemia.",
+      "cpt": "80061",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Cardiology",
+        "Internal medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "kidney-function-panel",
+      "name": "Kidney Function Panel",
+      "description": "Renal function blood panel evaluates kidney-related markers and electrolytes such as creatinine, blood urea nitrogen, albumin, calcium, phosphorus, sodium, potassium, chloride, carbon dioxide, and glucose, supporting assessment of kidney disease, fluid balance, metabolic abnormalities, and treatment monitoring.",
+      "cpt": "80069",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Nephrology",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "liver-function-blood-test-panel",
+      "name": "Liver Function Blood Test Panel",
+      "description": "Hepatic function panel measures liver-associated proteins, enzymes, and bilirubin in blood to help identify liver inflammation, injury, bile duct problems, medication effects, and severity or progression of known liver disease when interpreted with symptoms and clinical history.",
+      "cpt": "80076",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Gastroenterology",
+        "Internal medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy",
+      "name": "Automated Urinalysis with Microscopy",
+      "description": "Combined chemical and microscopic urine examination assesses physical and chemical characteristics plus sediment findings such as cells, casts, crystals, bacteria, or other particles, helping evaluate urinary tract infection, kidney disease, diabetes-related abnormalities, hematuria, and treatment response.",
+      "cpt": "81001",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Nephrology",
+        "Pathology",
+        "Urology"
+      ]
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy",
+      "name": "Automated Urinalysis without Microscopy",
+      "description": "Reagent-based urine screening evaluates appearance and chemical indicators such as pH, specific gravity, protein, glucose, ketones, blood, bilirubin, nitrite, and leukocyte esterase, supporting rapid detection of urinary tract, kidney, metabolic, or pregnancy-related abnormalities without microscopic sediment review.",
+      "cpt": "81003",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Nephrology",
+        "Pathology",
+        "Urology"
+      ]
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c",
+      "name": "HbA1c (Hemoglobin A1c)",
+      "description": "Measures glycated hemoglobin to estimate average blood glucose over the past two to three months, supporting diabetes and prediabetes screening, diagnosis, and monitoring. Results reflect chronic glycemic exposure rather than single-day glucose changes, helping clinicians evaluate treatment effectiveness and long-term complication risk.",
+      "cpt": "83036",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "psa-prostate-specific-antigen",
+      "name": "PSA (Prostate Specific Antigen)",
+      "description": "Measures prostate-specific antigen in blood to support prostate cancer screening, evaluation of prostate symptoms, and monitoring after prostate cancer treatment. Elevated values can occur with cancer, benign prostate enlargement, prostatitis, infection, or other prostate conditions, so abnormal results require clinical interpretation and may prompt follow-up testing.",
+      "cpt": "84153",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Pathology",
+        "Urology"
+      ]
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone",
+      "name": "TSH (Thyroid Stimulating Hormone)",
+      "description": "Measures thyroid-stimulating hormone in blood to assess whether thyroid hormone production is appropriately regulated by the pituitary gland. Results help identify possible hypothyroidism or hyperthyroidism, monitor thyroid medication dosing, and guide follow-up testing when thyroid function appears abnormal.",
+      "cpt": "84443",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "complete-blood-count-with-differential",
+      "name": "Complete Blood Count with Differential",
+      "description": "Measures major blood cell components and separately counts types of white blood cells to evaluate overall health, infection, inflammation, immune disorders, blood disorders, and some cancers. Differential results add detail beyond total white blood cell count, helping clinicians interpret symptoms, investigate abnormal screening results, or monitor existing conditions.",
+      "cpt": "85025",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "clotting-time-prothrombin",
+      "name": "Clotting Time (Prothrombin)",
+      "description": "Measures how many seconds a blood sample takes to clot, commonly reported with an INR to standardize results across laboratories. Findings help evaluate bleeding or clotting disorders, monitor warfarin therapy, assess liver-related clotting problems, and check clotting ability before procedures.",
+      "cpt": "85610",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Internal medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv",
+      "name": "Pathology Tissue Exam Level IV",
+      "description": "Gross and microscopic evaluation of tissue specimens supports diagnosis after biopsy or surgery by documenting cellular patterns, margins, inflammation, benign disease, or malignancy. Findings from the pathology report can guide cancer diagnosis, staging, treatment planning, and follow-up.",
+      "cpt": "88305",
+      "categories": [
+        "Laboratory"
+      ],
+      "specialty": [
+        "Pathology"
+      ]
+    },
+    {
+      "slug": "ecg-routine-with-interpretation",
+      "name": "ECG Routine with Interpretation",
+      "description": "Electrocardiography records the heart’s electrical activity to evaluate rate, rhythm, signal timing, and patterns that may suggest heart disease or injury. Routine tracing with interpretation helps clinicians investigate symptoms such as chest pain, palpitations, shortness of breath, dizziness, or treatment effects.",
+      "cpt": "93000",
+      "categories": [
+        "Cardiac/Vascular"
+      ],
+      "specialty": [
+        "Cardiology",
+        "Emergency medicine",
+        "Internal medicine"
+      ]
+    },
+    {
+      "slug": "echocardiogram-transthoracic",
+      "name": "Echocardiogram Transthoracic",
+      "description": "Sound-wave imaging through the chest creates moving pictures of the beating heart, valves, chambers, and nearby structures without radiation. Doppler assessment can show blood motion, helping evaluate murmurs, valve disease, heart failure, congenital abnormalities, and pumping function.",
+      "cpt": "93306",
+      "categories": [
+        "Cardiac/Vascular"
+      ],
+      "specialty": [
+        "Cardiology"
+      ]
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart",
+      "name": "Cardiac Catheterization (Left Heart)",
+      "description": "Catheter-based evaluation of the left side of the heart is used to diagnose or treat selected cardiac problems. It can measure pressures, assess pumping function, inject contrast for x-ray imaging, evaluate coronary arteries, and support interventions for narrowed vessels or valves.",
+      "cpt": "93452",
+      "categories": [
+        "Cardiac/Vascular"
+      ],
+      "specialty": [
+        "Cardiology"
+      ]
+    },
+    {
+      "slug": "duplex-scan-extremity-veins",
+      "name": "Duplex Scan Extremity Veins",
+      "description": "Venous duplex scanning evaluates blood flow in arm or leg veins by combining standard ultrasound images with Doppler flow assessment. It helps detect blood clots, venous blockage, reflux, or other vascular abnormalities while avoiding more invasive contrast venography.",
+      "cpt": "93971",
+      "categories": [
+        "Cardiac/Vascular"
+      ],
+      "specialty": [
+        "Cardiology",
+        "Radiology"
+      ]
+    },
+    {
+      "slug": "spirometry",
+      "name": "Spirometry",
+      "description": "Breathing measurement evaluates lung function by recording the amount and rate of air breathed in and out, especially during forced maneuvers. Results help clinicians investigate shortness of breath, assess a broad range of lung diseases, and monitor response to respiratory treatment over time.",
+      "cpt": "94010",
+      "categories": [
+        "Therapy/Diagnostic"
+      ],
+      "specialty": [
+        "Pulmonology"
+      ]
+    },
+    {
+      "slug": "sleep-study",
+      "name": "Sleep Study",
+      "description": "Overnight physiologic monitoring records sleep-related breathing, oxygen level, heart rate, brain waves, eye movement, and limb activity. Findings support diagnosis of sleep disorders such as obstructive sleep apnea, insomnia, restless legs syndrome, and narcolepsy, where untreated disease can affect safety, cardiovascular health, and quality of life.",
+      "cpt": "95810",
+      "categories": [
+        "Therapy/Diagnostic"
+      ],
+      "specialty": [
+        "Pulmonology"
+      ]
+    },
+    {
+      "slug": "therapeutic-injection",
+      "name": "Therapeutic Injection",
+      "description": "Medication administration by subcutaneous or intramuscular injection delivers a specified drug or substance for therapeutic, preventive, or diagnostic purposes. This service is important when a clinician-administered dose is needed, including treatments such as antibiotics, vaccines, hormones, or other injectable medications.",
+      "cpt": "96372",
+      "categories": [
+        "Therapy/Diagnostic"
+      ],
+      "specialty": [
+        "Internal medicine"
+      ]
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise",
+      "name": "Physical Therapy Therapeutic Exercise",
+      "description": "Supervised therapeutic exercise uses targeted movement to improve strength, endurance, range of motion, and flexibility in one or more body areas. It supports rehabilitation after injury, surgery, or functional decline by matching exercises to measured impairments and patient goals.",
+      "cpt": "97110",
+      "categories": [
+        "Therapy/Diagnostic"
+      ],
+      "specialty": []
+    },
+    {
+      "slug": "physical-therapy-evaluation",
+      "name": "Physical Therapy Evaluation",
+      "description": "Low-complexity physical therapy assessment documents a stable or uncomplicated presentation, one to two examination elements, and clinical decision-making needed to plan care. It establishes baseline functional status, movement limitations, activity restrictions, and treatment priorities before a rehabilitation program begins.",
+      "cpt": "97161",
+      "categories": [
+        "Therapy/Diagnostic"
+      ],
+      "specialty": []
+    },
+    {
+      "slug": "office-visit-established-patient-l3",
+      "name": "Office Visit Established Patient L3",
+      "description": "Established-patient outpatient evaluation and management at level 3 addresses a stable chronic illness or acute uncomplicated injury. It includes medically appropriate history or examination, low medical decision-making, or 20–29 minutes of total clinician time on the encounter date.",
+      "cpt": "99213",
+      "categories": [
+        "Visits"
+      ],
+      "specialty": [
+        "Internal medicine"
+      ]
+    },
+    {
+      "slug": "office-visit-established-patient-l4",
+      "name": "Office Visit Established Patient L4",
+      "description": "Established-patient outpatient evaluation and management at level 4 addresses a progressing illness, acute injury requiring medical management, or comparable moderate complexity. It requires medically appropriate history or examination with moderate decision-making, or 30–39 minutes of total clinician time on the encounter date.",
+      "cpt": "99214",
+      "categories": [
+        "Visits"
+      ],
+      "specialty": [
+        "Internal medicine"
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "slug": "automated-urinalysis-with-microscopy-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 15,
+      "cash": null,
+      "min_neg": 2,
+      "max_neg": 13
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "automated-urinalysis-without-microscopy",
+      "gross": 9,
+      "cash": null,
+      "min_neg": 2,
+      "max_neg": 8
+    },
+    {
+      "slug": "basic-metabolic-panel-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 27,
+      "cash": null,
+      "min_neg": 5,
+      "max_neg": 31
+    },
+    {
+      "slug": "breast-growth-removal-open-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": 5508,
+      "cash": null,
+      "min_neg": 367,
+      "max_neg": 6612
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": 11685,
+      "cash": null,
+      "min_neg": 564,
+      "max_neg": 9932
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": 8849,
+      "cash": null,
+      "min_neg": 474,
+      "max_neg": 7522
+    },
+    {
+      "slug": "chest-x-ray-2-views-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 331,
+      "cash": null,
+      "min_neg": 16,
+      "max_neg": 282
+    },
+    {
+      "slug": "clotting-time-prothrombin-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 14,
+      "cash": null,
+      "min_neg": 3,
+      "max_neg": 14
+    },
+    {
+      "slug": "colonoscopy-diagnostic-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": 3355,
+      "cash": null,
+      "min_neg": 162,
+      "max_neg": 2852
+    },
+    {
+      "slug": "complete-blood-count-with-differential-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 33,
+      "cash": null,
+      "min_neg": 3,
+      "max_neg": 28
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 40,
+      "cash": null,
+      "min_neg": 7,
+      "max_neg": 39
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 2511,
+      "cash": null,
+      "min_neg": 200,
+      "max_neg": 2135
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 1497,
+      "cash": null,
+      "min_neg": 75,
+      "max_neg": 1273
+    },
+    {
+      "slug": "ct-chest-without-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 1538,
+      "cash": null,
+      "min_neg": 76,
+      "max_neg": 1307
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 1333,
+      "cash": null,
+      "min_neg": 62,
+      "max_neg": 1133
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 1977,
+      "cash": null,
+      "min_neg": 159,
+      "max_neg": 1680
+    },
+    {
+      "slug": "dexa-bone-density-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 453,
+      "cash": null,
+      "min_neg": 24,
+      "max_neg": 385
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 603,
+      "cash": null,
+      "min_neg": 95,
+      "max_neg": 513
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 480,
+      "cash": null,
+      "min_neg": 75,
+      "max_neg": 408
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 860,
+      "cash": null,
+      "min_neg": 88,
+      "max_neg": 763
+    },
+    {
+      "slug": "ecg-routine-with-interpretation-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ecg-routine-with-interpretation",
+      "gross": 213,
+      "cash": null,
+      "min_neg": 13,
+      "max_neg": 181
+    },
+    {
+      "slug": "echocardiogram-transthoracic-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 2432,
+      "cash": null,
+      "min_neg": 115,
+      "max_neg": 2067
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 3253,
+      "cash": null,
+      "min_neg": 98,
+      "max_neg": 2603
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 41,
+      "cash": null,
+      "min_neg": 7,
+      "max_neg": 36
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 1042,
+      "cash": null,
+      "min_neg": 28,
+      "max_neg": 924
+    },
+    {
+      "slug": "kidney-function-panel-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "kidney-function-panel",
+      "gross": 34,
+      "cash": null,
+      "min_neg": 6,
+      "max_neg": 32
+    },
+    {
+      "slug": "lipid-panel-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "lipid-panel",
+      "gross": 56,
+      "cash": null,
+      "min_neg": 6,
+      "max_neg": 49
+    },
+    {
+      "slug": "liver-function-blood-test-panel-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 27,
+      "cash": null,
+      "min_neg": 5,
+      "max_neg": 30
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 2320,
+      "cash": null,
+      "min_neg": 59,
+      "max_neg": 2058
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 2643,
+      "cash": null,
+      "min_neg": 196,
+      "max_neg": 2246
+    },
+    {
+      "slug": "mri-brain-without-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 1615,
+      "cash": null,
+      "min_neg": 118,
+      "max_neg": 1372
+    },
+    {
+      "slug": "mri-knee-without-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 1636,
+      "cash": null,
+      "min_neg": 130,
+      "max_neg": 682
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 1593,
+      "cash": null,
+      "min_neg": 113,
+      "max_neg": 1354
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 2523,
+      "cash": null,
+      "min_neg": 130,
+      "max_neg": 2145
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 893,
+      "cash": null,
+      "min_neg": 72,
+      "max_neg": 759
+    },
+    {
+      "slug": "office-visit-established-patient-l3-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "office-visit-established-patient-l3",
+      "gross": 535,
+      "cash": null,
+      "min_neg": 35,
+      "max_neg": 455
+    },
+    {
+      "slug": "office-visit-established-patient-l4-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "office-visit-established-patient-l4",
+      "gross": 663,
+      "cash": null,
+      "min_neg": 54,
+      "max_neg": 564
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 416,
+      "cash": null,
+      "min_neg": 22,
+      "max_neg": 354
+    },
+    {
+      "slug": "physical-therapy-evaluation-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 479,
+      "cash": null,
+      "min_neg": 49,
+      "max_neg": 407
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 316,
+      "cash": null,
+      "min_neg": 19,
+      "max_neg": 268
+    },
+    {
+      "slug": "prostate-biopsy-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "prostate-biopsy",
+      "gross": 6262,
+      "cash": null,
+      "min_neg": 99,
+      "max_neg": 5010
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 77,
+      "cash": null,
+      "min_neg": 14,
+      "max_neg": 67
+    },
+    {
+      "slug": "routine-venipuncture-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 17,
+      "cash": null,
+      "min_neg": 2,
+      "max_neg": 15
+    },
+    {
+      "slug": "screening-mammogram-bilateral-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 491,
+      "cash": null,
+      "min_neg": 79,
+      "max_neg": 417
+    },
+    {
+      "slug": "sleep-study-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "sleep-study",
+      "gross": 5393,
+      "cash": null,
+      "min_neg": 452,
+      "max_neg": 4584
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": 2552,
+      "cash": null,
+      "min_neg": 87,
+      "max_neg": 2169
+    },
+    {
+      "slug": "spirometry-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "spirometry",
+      "gross": 613,
+      "cash": null,
+      "min_neg": 18,
+      "max_neg": 521
+    },
+    {
+      "slug": "therapeutic-injection-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 220,
+      "cash": null,
+      "min_neg": 13,
+      "max_neg": 187
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 70,
+      "cash": null,
+      "min_neg": 9,
+      "max_neg": 62
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 1495,
+      "cash": null,
+      "min_neg": 65,
+      "max_neg": 1271
+    },
+    {
+      "slug": "ultrasound-breast-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ultrasound-breast",
+      "gross": 626,
+      "cash": null,
+      "min_neg": 43,
+      "max_neg": 532
+    },
+    {
+      "slug": "ultrasound-thyroid-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 810,
+      "cash": null,
+      "min_neg": 70,
+      "max_neg": 689
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 834,
+      "cash": null,
+      "min_neg": 69,
+      "max_neg": 770
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": 3207,
+      "cash": null,
+      "min_neg": 108,
+      "max_neg": 2726
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": 3126,
+      "cash": null,
+      "min_neg": 121,
+      "max_neg": 2772
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 473,
+      "cash": null,
+      "min_neg": 26,
+      "max_neg": 402
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-bellevue-hospital-center",
+      "hospital_slug": "bellevue-hospital-center",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": 2261,
+      "cash": null,
+      "min_neg": 244,
+      "max_neg": 1922
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 7,
+      "cash": 7,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "basic-metabolic-panel-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 19,
+      "cash": 19,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "breast-growth-removal-open-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": 8874,
+      "cash": 8874,
+      "min_neg": 1773,
+      "max_neg": 7986
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": 8186,
+      "cash": 8186,
+      "min_neg": 2015,
+      "max_neg": 7367
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": 6007,
+      "cash": 6007,
+      "min_neg": 2237,
+      "max_neg": 5406
+    },
+    {
+      "slug": "chest-x-ray-2-views-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 215,
+      "cash": 215,
+      "min_neg": 15,
+      "max_neg": 194
+    },
+    {
+      "slug": "clotting-time-prothrombin-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 9,
+      "cash": 9,
+      "min_neg": 4,
+      "max_neg": 36
+    },
+    {
+      "slug": "colonoscopy-diagnostic-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": 2590,
+      "cash": 2590,
+      "min_neg": 877,
+      "max_neg": 2331
+    },
+    {
+      "slug": "complete-blood-count-with-differential-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 17,
+      "cash": 17,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 23,
+      "cash": 23,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 978,
+      "cash": 978,
+      "min_neg": 125,
+      "max_neg": 881
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": 82,
+      "max_neg": 359
+    },
+    {
+      "slug": "ct-chest-without-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": 74,
+      "max_neg": 448
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": 58,
+      "max_neg": 299
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 475,
+      "cash": 475,
+      "min_neg": 80,
+      "max_neg": 463
+    },
+    {
+      "slug": "dexa-bone-density-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": 14,
+      "max_neg": 261
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 106,
+      "cash": 106,
+      "min_neg": 61,
+      "max_neg": 286
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 86,
+      "cash": 86,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": 20,
+      "max_neg": 261
+    },
+    {
+      "slug": "ecg-routine-with-interpretation-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ecg-routine-with-interpretation",
+      "gross": 33,
+      "cash": 33,
+      "min_neg": 15,
+      "max_neg": 32
+    },
+    {
+      "slug": "echocardiogram-transthoracic-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 1242,
+      "cash": 1242,
+      "min_neg": 68,
+      "max_neg": 1117
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 2667,
+      "cash": 2667,
+      "min_neg": 699,
+      "max_neg": 2400
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 21,
+      "cash": 21,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 1175,
+      "cash": 1175,
+      "min_neg": 284,
+      "max_neg": 1058
+    },
+    {
+      "slug": "lipid-panel-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "lipid-panel",
+      "gross": 29,
+      "cash": 29,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "liver-function-blood-test-panel-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 18,
+      "cash": 18,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 2168,
+      "cash": 2168,
+      "min_neg": 664,
+      "max_neg": 1951
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 978,
+      "cash": 978,
+      "min_neg": 157,
+      "max_neg": 1268
+    },
+    {
+      "slug": "mri-brain-without-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 612,
+      "cash": 612,
+      "min_neg": 102,
+      "max_neg": 752
+    },
+    {
+      "slug": "mri-knee-without-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 612,
+      "cash": 612,
+      "min_neg": 93,
+      "max_neg": 743
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 612,
+      "cash": 612,
+      "min_neg": 102,
+      "max_neg": 753
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 612,
+      "cash": 612,
+      "min_neg": 93,
+      "max_neg": 743
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": 68,
+      "max_neg": 344
+    },
+    {
+      "slug": "office-visit-established-patient-l3-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "office-visit-established-patient-l3",
+      "gross": 640,
+      "cash": 640,
+      "min_neg": 37,
+      "max_neg": 576
+    },
+    {
+      "slug": "office-visit-established-patient-l4-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "office-visit-established-patient-l4",
+      "gross": 640,
+      "cash": 640,
+      "min_neg": 56,
+      "max_neg": 576
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 132,
+      "cash": 132,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "physical-therapy-evaluation-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 219,
+      "cash": 219,
+      "min_neg": 86,
+      "max_neg": 197
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 65,
+      "cash": 65,
+      "min_neg": 25,
+      "max_neg": 64
+    },
+    {
+      "slug": "prostate-biopsy-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "prostate-biopsy",
+      "gross": 5246,
+      "cash": 5246,
+      "min_neg": 1955,
+      "max_neg": 5090
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 40,
+      "cash": 40,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "routine-venipuncture-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 7,
+      "cash": 7,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "screening-mammogram-bilateral-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 81,
+      "cash": 81,
+      "min_neg": 52,
+      "max_neg": 752
+    },
+    {
+      "slug": "sleep-study-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "sleep-study",
+      "gross": 2343,
+      "cash": 2343,
+      "min_neg": 101,
+      "max_neg": 2109
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": 2168,
+      "cash": 2168,
+      "min_neg": 664,
+      "max_neg": 1951
+    },
+    {
+      "slug": "spirometry-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "spirometry",
+      "gross": 371,
+      "cash": 371,
+      "min_neg": 8,
+      "max_neg": 334
+    },
+    {
+      "slug": "therapeutic-injection-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 168,
+      "cash": 168,
+      "min_neg": 13,
+      "max_neg": 151
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 37,
+      "cash": 37,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": 55,
+      "max_neg": 261
+    },
+    {
+      "slug": "ultrasound-thyroid-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": null,
+      "max_neg": null
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": 47,
+      "max_neg": 261
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": 2633,
+      "cash": 2633,
+      "min_neg": 870,
+      "max_neg": 2369
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": 2633,
+      "cash": 2633,
+      "min_neg": 870,
+      "max_neg": 2369
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 290,
+      "cash": 290,
+      "min_neg": 18,
+      "max_neg": 261
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-bronxcare-health-system",
+      "hospital_slug": "bronxcare-health-system",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": 1339,
+      "cash": 1339,
+      "min_neg": 558,
+      "max_neg": 1572
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 41,
+      "cash": null,
+      "min_neg": 3,
+      "max_neg": 5
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "automated-urinalysis-without-microscopy",
+      "gross": 8,
+      "cash": 2,
+      "min_neg": 2,
+      "max_neg": 5
+    },
+    {
+      "slug": "basic-metabolic-panel-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 35,
+      "cash": 7,
+      "min_neg": 7,
+      "max_neg": 16
+    },
+    {
+      "slug": "breast-growth-removal-open-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": 6596,
+      "cash": null,
+      "min_neg": 4252,
+      "max_neg": 7087
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": 6583,
+      "cash": null,
+      "min_neg": 3521,
+      "max_neg": 5868
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": 4873,
+      "cash": null,
+      "min_neg": 2506,
+      "max_neg": 4177
+    },
+    {
+      "slug": "chest-x-ray-2-views-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 146,
+      "cash": 31,
+      "min_neg": 24,
+      "max_neg": 158
+    },
+    {
+      "slug": "clotting-time-prothrombin-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 9,
+      "cash": 4,
+      "min_neg": 4,
+      "max_neg": 9
+    },
+    {
+      "slug": "colonoscopy-diagnostic-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": 1790,
+      "cash": null,
+      "min_neg": 1010,
+      "max_neg": 1683
+    },
+    {
+      "slug": "complete-blood-count-with-differential-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 46,
+      "cash": 3,
+      "min_neg": 3,
+      "max_neg": 11
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 46,
+      "cash": 10,
+      "min_neg": 9,
+      "max_neg": 23
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 904,
+      "cash": 314,
+      "min_neg": 314,
+      "max_neg": 707
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 283,
+      "cash": 263,
+      "min_neg": 114,
+      "max_neg": 592
+    },
+    {
+      "slug": "ct-chest-without-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 283,
+      "cash": 263,
+      "min_neg": 114,
+      "max_neg": 592
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 283,
+      "cash": 314,
+      "min_neg": 114,
+      "max_neg": 707
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 1162,
+      "cash": 314,
+      "min_neg": 190,
+      "max_neg": 707
+    },
+    {
+      "slug": "dexa-bone-density-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 264,
+      "cash": 145,
+      "min_neg": 114,
+      "max_neg": 327
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 407,
+      "cash": 108,
+      "min_neg": 46,
+      "max_neg": 269
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 322,
+      "cash": 108,
+      "min_neg": 37,
+      "max_neg": 243
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 270,
+      "cash": 175,
+      "min_neg": 114,
+      "max_neg": 393
+    },
+    {
+      "slug": "echocardiogram-transthoracic-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 1344,
+      "cash": 384,
+      "min_neg": 250,
+      "max_neg": 989
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 1903,
+      "cash": 706,
+      "min_neg": 706,
+      "max_neg": 1601
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 54,
+      "cash": null,
+      "min_neg": 8,
+      "max_neg": 14
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 580,
+      "cash": null,
+      "min_neg": 333,
+      "max_neg": 556
+    },
+    {
+      "slug": "kidney-function-panel-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "kidney-function-panel",
+      "gross": 17,
+      "cash": null,
+      "min_neg": 8,
+      "max_neg": 13
+    },
+    {
+      "slug": "lipid-panel-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "lipid-panel",
+      "gross": 103,
+      "cash": 6,
+      "min_neg": 6,
+      "max_neg": 19
+    },
+    {
+      "slug": "liver-function-blood-test-panel-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 30,
+      "cash": 7,
+      "min_neg": 7,
+      "max_neg": 16
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 1403,
+      "cash": null,
+      "min_neg": 767,
+      "max_neg": 1278
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 1138,
+      "cash": 580,
+      "min_neg": 379,
+      "max_neg": 1306
+    },
+    {
+      "slug": "mri-brain-without-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 675,
+      "cash": 385,
+      "min_neg": 259,
+      "max_neg": 866
+    },
+    {
+      "slug": "mri-knee-without-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 675,
+      "cash": 385,
+      "min_neg": 259,
+      "max_neg": 866
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 675,
+      "cash": 385,
+      "min_neg": 259,
+      "max_neg": 866
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 675,
+      "cash": 385,
+      "min_neg": 259,
+      "max_neg": 866
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 318,
+      "cash": 151,
+      "min_neg": 108,
+      "max_neg": 340
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 191,
+      "cash": 44,
+      "min_neg": 28,
+      "max_neg": 98
+    },
+    {
+      "slug": "physical-therapy-evaluation-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 198,
+      "cash": 118,
+      "min_neg": 96,
+      "max_neg": 265
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 72,
+      "cash": 49,
+      "min_neg": 29,
+      "max_neg": 111
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 45,
+      "cash": null,
+      "min_neg": 16,
+      "max_neg": 27
+    },
+    {
+      "slug": "routine-venipuncture-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 32,
+      "cash": 10,
+      "min_neg": 2,
+      "max_neg": 23
+    },
+    {
+      "slug": "screening-mammogram-bilateral-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 328,
+      "cash": 108,
+      "min_neg": 35,
+      "max_neg": 243
+    },
+    {
+      "slug": "sleep-study-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "sleep-study",
+      "gross": 2138,
+      "cash": 1016,
+      "min_neg": 772,
+      "max_neg": 2286
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": 1403,
+      "cash": null,
+      "min_neg": 767,
+      "max_neg": 1278
+    },
+    {
+      "slug": "spirometry-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "spirometry",
+      "gross": 324,
+      "cash": 88,
+      "min_neg": 40,
+      "max_neg": 391
+    },
+    {
+      "slug": "therapeutic-injection-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 140,
+      "cash": 13,
+      "min_neg": 13,
+      "max_neg": 130
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 96,
+      "cash": 9,
+      "min_neg": 9,
+      "max_neg": 24
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 318,
+      "cash": 758,
+      "min_neg": 101,
+      "max_neg": 1706
+    },
+    {
+      "slug": "ultrasound-breast-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ultrasound-breast",
+      "gross": 217,
+      "cash": 175,
+      "min_neg": 65,
+      "max_neg": 393
+    },
+    {
+      "slug": "ultrasound-thyroid-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 318,
+      "cash": 175,
+      "min_neg": 73,
+      "max_neg": 393
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 318,
+      "cash": 175,
+      "min_neg": 78,
+      "max_neg": 393
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": 1842,
+      "cash": null,
+      "min_neg": 985,
+      "max_neg": 1642
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": 1842,
+      "cash": null,
+      "min_neg": 985,
+      "max_neg": 1642
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 269,
+      "cash": 31,
+      "min_neg": 31,
+      "max_neg": 189
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-brookdale-hospital-medical-center",
+      "hospital_slug": "brookdale-hospital-medical-center",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": 1188,
+      "cash": null,
+      "min_neg": 597,
+      "max_neg": 996
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 251,
+      "cash": 25,
+      "min_neg": 1,
+      "max_neg": 201
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "automated-urinalysis-without-microscopy",
+      "gross": 3,
+      "cash": 1,
+      "min_neg": 1,
+      "max_neg": 133
+    },
+    {
+      "slug": "basic-metabolic-panel-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 152,
+      "cash": 15,
+      "min_neg": 3,
+      "max_neg": 122
+    },
+    {
+      "slug": "breast-growth-removal-open-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": null,
+      "cash": null,
+      "min_neg": 287,
+      "max_neg": 8113
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": null,
+      "cash": null,
+      "min_neg": 3409,
+      "max_neg": 6814
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": null,
+      "cash": null,
+      "min_neg": 818,
+      "max_neg": 4832
+    },
+    {
+      "slug": "chest-x-ray-2-views-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 484,
+      "cash": 48,
+      "min_neg": 12,
+      "max_neg": 387
+    },
+    {
+      "slug": "clotting-time-prothrombin-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 152,
+      "cash": 15,
+      "min_neg": 2,
+      "max_neg": 122
+    },
+    {
+      "slug": "colonoscopy-diagnostic-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": null,
+      "cash": null,
+      "min_neg": 265,
+      "max_neg": 1932
+    },
+    {
+      "slug": "complete-blood-count-with-differential-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 238,
+      "cash": 24,
+      "min_neg": 3,
+      "max_neg": 238
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 400,
+      "cash": 40,
+      "min_neg": 4,
+      "max_neg": 320
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 9405,
+      "cash": 941,
+      "min_neg": 97,
+      "max_neg": 7524
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 2080,
+      "cash": 208,
+      "min_neg": 63,
+      "max_neg": 1664
+    },
+    {
+      "slug": "ct-chest-without-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 2080,
+      "cash": 208,
+      "min_neg": 58,
+      "max_neg": 1664
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 2080,
+      "cash": 208,
+      "min_neg": 45,
+      "max_neg": 1664
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 4699,
+      "cash": 470,
+      "min_neg": 62,
+      "max_neg": 3759
+    },
+    {
+      "slug": "dexa-bone-density-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 1577,
+      "cash": 158,
+      "min_neg": 11,
+      "max_neg": 1262
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 1575,
+      "cash": 158,
+      "min_neg": 53,
+      "max_neg": 1260
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 845,
+      "cash": 85,
+      "min_neg": 43,
+      "max_neg": 676
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 2424,
+      "cash": 242,
+      "min_neg": 24,
+      "max_neg": 2483
+    },
+    {
+      "slug": "ecg-routine-with-interpretation-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ecg-routine-with-interpretation",
+      "gross": null,
+      "cash": null,
+      "min_neg": 28,
+      "max_neg": 723
+    },
+    {
+      "slug": "echocardiogram-transthoracic-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 4209,
+      "cash": 421,
+      "min_neg": 77,
+      "max_neg": 3367
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 18350,
+      "cash": 1835,
+      "min_neg": 125,
+      "max_neg": 14680
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 389,
+      "cash": 39,
+      "min_neg": 4,
+      "max_neg": 311
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 1687,
+      "cash": 169,
+      "min_neg": 51,
+      "max_neg": 1350
+    },
+    {
+      "slug": "kidney-function-panel-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "kidney-function-panel",
+      "gross": 160,
+      "cash": 16,
+      "min_neg": 3,
+      "max_neg": 128
+    },
+    {
+      "slug": "lipid-panel-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "lipid-panel",
+      "gross": 615,
+      "cash": 62,
+      "min_neg": 5,
+      "max_neg": 626
+    },
+    {
+      "slug": "liver-function-blood-test-panel-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 215,
+      "cash": 22,
+      "min_neg": 3,
+      "max_neg": 174
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 9418,
+      "cash": 942,
+      "min_neg": 67,
+      "max_neg": 7534
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 7213,
+      "cash": 721,
+      "min_neg": 122,
+      "max_neg": 5770
+    },
+    {
+      "slug": "mri-brain-without-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 4146,
+      "cash": 415,
+      "min_neg": 78,
+      "max_neg": 3317
+    },
+    {
+      "slug": "mri-knee-without-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 4146,
+      "cash": 415,
+      "min_neg": 72,
+      "max_neg": 3317
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 4146,
+      "cash": 415,
+      "min_neg": 79,
+      "max_neg": 3317
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 4146,
+      "cash": 415,
+      "min_neg": 73,
+      "max_neg": 3317
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 1973,
+      "cash": 197,
+      "min_neg": 53,
+      "max_neg": 1578
+    },
+    {
+      "slug": "office-visit-established-patient-l3-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "office-visit-established-patient-l3",
+      "gross": 152,
+      "cash": 15,
+      "min_neg": 11,
+      "max_neg": 1021
+    },
+    {
+      "slug": "office-visit-established-patient-l4-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "office-visit-established-patient-l4",
+      "gross": 307,
+      "cash": 31,
+      "min_neg": 22,
+      "max_neg": 945
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 568,
+      "cash": 57,
+      "min_neg": 18,
+      "max_neg": 1514
+    },
+    {
+      "slug": "physical-therapy-evaluation-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 1665,
+      "cash": 167,
+      "min_neg": 60,
+      "max_neg": 1332
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 252,
+      "cash": 25,
+      "min_neg": 18,
+      "max_neg": 266
+    },
+    {
+      "slug": "prostate-biopsy-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "prostate-biopsy",
+      "gross": 9890,
+      "cash": 989,
+      "min_neg": 67,
+      "max_neg": 7912
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 379,
+      "cash": 38,
+      "min_neg": 7,
+      "max_neg": 1662
+    },
+    {
+      "slug": "routine-venipuncture-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 43,
+      "cash": 4,
+      "min_neg": 1,
+      "max_neg": 34
+    },
+    {
+      "slug": "screening-mammogram-bilateral-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 1455,
+      "cash": 146,
+      "min_neg": 41,
+      "max_neg": 1164
+    },
+    {
+      "slug": "sleep-study-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "sleep-study",
+      "gross": 10639,
+      "cash": 1064,
+      "min_neg": 132,
+      "max_neg": 8511
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": null,
+      "cash": null,
+      "min_neg": 734,
+      "max_neg": 1467
+    },
+    {
+      "slug": "spirometry-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "spirometry",
+      "gross": 590,
+      "cash": 59,
+      "min_neg": 9,
+      "max_neg": 1598
+    },
+    {
+      "slug": "therapeutic-injection-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 947,
+      "cash": 95,
+      "min_neg": 16,
+      "max_neg": 5646
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 568,
+      "cash": 57,
+      "min_neg": 6,
+      "max_neg": 454
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 898,
+      "cash": 90,
+      "min_neg": 43,
+      "max_neg": 718
+    },
+    {
+      "slug": "ultrasound-breast-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ultrasound-breast",
+      "gross": null,
+      "cash": null,
+      "min_neg": 93,
+      "max_neg": 223
+    },
+    {
+      "slug": "ultrasound-thyroid-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 2368,
+      "cash": 237,
+      "min_neg": 31,
+      "max_neg": 1894
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 2382,
+      "cash": 238,
+      "min_neg": 37,
+      "max_neg": 1906
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": null,
+      "cash": null,
+      "min_neg": 241,
+      "max_neg": 1986
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": null,
+      "cash": null,
+      "min_neg": 320,
+      "max_neg": 1986
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 1573,
+      "cash": 157,
+      "min_neg": 14,
+      "max_neg": 1258
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-englewood-health",
+      "hospital_slug": "englewood-health",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": null,
+      "cash": null,
+      "min_neg": 241,
+      "max_neg": 1162
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 41,
+      "cash": null,
+      "min_neg": 3,
+      "max_neg": 6
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "automated-urinalysis-without-microscopy",
+      "gross": 8,
+      "cash": 2,
+      "min_neg": 2,
+      "max_neg": 5
+    },
+    {
+      "slug": "basic-metabolic-panel-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 35,
+      "cash": 7,
+      "min_neg": 7,
+      "max_neg": 16
+    },
+    {
+      "slug": "breast-growth-removal-open-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": 6596,
+      "cash": null,
+      "min_neg": 4252,
+      "max_neg": 8798
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": 6583,
+      "cash": null,
+      "min_neg": 3521,
+      "max_neg": 7284
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": 4873,
+      "cash": null,
+      "min_neg": 2506,
+      "max_neg": 5185
+    },
+    {
+      "slug": "chest-x-ray-2-views-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 146,
+      "cash": 31,
+      "min_neg": 29,
+      "max_neg": 196
+    },
+    {
+      "slug": "clotting-time-prothrombin-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 9,
+      "cash": 4,
+      "min_neg": 4,
+      "max_neg": 9
+    },
+    {
+      "slug": "colonoscopy-diagnostic-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": 1790,
+      "cash": null,
+      "min_neg": 1010,
+      "max_neg": 2090
+    },
+    {
+      "slug": "complete-blood-count-with-differential-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 46,
+      "cash": 3,
+      "min_neg": 3,
+      "max_neg": 14
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 46,
+      "cash": 10,
+      "min_neg": 9,
+      "max_neg": 23
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 904,
+      "cash": 314,
+      "min_neg": 299,
+      "max_neg": 784
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 283,
+      "cash": 263,
+      "min_neg": 114,
+      "max_neg": 592
+    },
+    {
+      "slug": "ct-chest-without-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 283,
+      "cash": 263,
+      "min_neg": 114,
+      "max_neg": 592
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 283,
+      "cash": 314,
+      "min_neg": 114,
+      "max_neg": 707
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 1162,
+      "cash": 314,
+      "min_neg": 190,
+      "max_neg": 707
+    },
+    {
+      "slug": "dexa-bone-density-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 264,
+      "cash": 145,
+      "min_neg": 114,
+      "max_neg": 327
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 407,
+      "cash": 108,
+      "min_neg": 46,
+      "max_neg": 333
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 322,
+      "cash": 108,
+      "min_neg": 37,
+      "max_neg": 263
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 270,
+      "cash": 175,
+      "min_neg": 114,
+      "max_neg": 393
+    },
+    {
+      "slug": "echocardiogram-transthoracic-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 1344,
+      "cash": 384,
+      "min_neg": 365,
+      "max_neg": 1228
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 1903,
+      "cash": 706,
+      "min_neg": 671,
+      "max_neg": 1987
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 54,
+      "cash": null,
+      "min_neg": 8,
+      "max_neg": 17
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 580,
+      "cash": null,
+      "min_neg": 333,
+      "max_neg": 690
+    },
+    {
+      "slug": "kidney-function-panel-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "kidney-function-panel",
+      "gross": 17,
+      "cash": null,
+      "min_neg": 8,
+      "max_neg": 16
+    },
+    {
+      "slug": "lipid-panel-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "lipid-panel",
+      "gross": 103,
+      "cash": 6,
+      "min_neg": 6,
+      "max_neg": 24
+    },
+    {
+      "slug": "liver-function-blood-test-panel-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 30,
+      "cash": 7,
+      "min_neg": 7,
+      "max_neg": 16
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 1403,
+      "cash": null,
+      "min_neg": 767,
+      "max_neg": 1586
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 1138,
+      "cash": 580,
+      "min_neg": 379,
+      "max_neg": 1306
+    },
+    {
+      "slug": "mri-brain-without-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 675,
+      "cash": 385,
+      "min_neg": 259,
+      "max_neg": 866
+    },
+    {
+      "slug": "mri-knee-without-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 675,
+      "cash": 385,
+      "min_neg": 259,
+      "max_neg": 866
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 675,
+      "cash": 385,
+      "min_neg": 259,
+      "max_neg": 866
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 675,
+      "cash": 385,
+      "min_neg": 259,
+      "max_neg": 866
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 318,
+      "cash": 151,
+      "min_neg": 114,
+      "max_neg": 340
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 191,
+      "cash": 44,
+      "min_neg": 41,
+      "max_neg": 117
+    },
+    {
+      "slug": "physical-therapy-evaluation-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 198,
+      "cash": 118,
+      "min_neg": 96,
+      "max_neg": 265
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 72,
+      "cash": 49,
+      "min_neg": 29,
+      "max_neg": 111
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 45,
+      "cash": null,
+      "min_neg": 16,
+      "max_neg": 33
+    },
+    {
+      "slug": "routine-venipuncture-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 32,
+      "cash": 10,
+      "min_neg": 8,
+      "max_neg": 23
+    },
+    {
+      "slug": "screening-mammogram-bilateral-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 328,
+      "cash": 108,
+      "min_neg": 35,
+      "max_neg": 268
+    },
+    {
+      "slug": "sleep-study-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "sleep-study",
+      "gross": 2138,
+      "cash": 1016,
+      "min_neg": 933,
+      "max_neg": 2286
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": 1403,
+      "cash": null,
+      "min_neg": 767,
+      "max_neg": 1586
+    },
+    {
+      "slug": "spirometry-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "spirometry",
+      "gross": 324,
+      "cash": 88,
+      "min_neg": 83,
+      "max_neg": 485
+    },
+    {
+      "slug": "therapeutic-injection-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 140,
+      "cash": 13,
+      "min_neg": 13,
+      "max_neg": 162
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 96,
+      "cash": 9,
+      "min_neg": 9,
+      "max_neg": 30
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 318,
+      "cash": 758,
+      "min_neg": 114,
+      "max_neg": 1706
+    },
+    {
+      "slug": "ultrasound-breast-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ultrasound-breast",
+      "gross": 217,
+      "cash": 175,
+      "min_neg": 95,
+      "max_neg": 393
+    },
+    {
+      "slug": "ultrasound-thyroid-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 318,
+      "cash": 175,
+      "min_neg": 114,
+      "max_neg": 393
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 318,
+      "cash": 175,
+      "min_neg": 114,
+      "max_neg": 393
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": 1842,
+      "cash": null,
+      "min_neg": 985,
+      "max_neg": 2038
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": 1842,
+      "cash": null,
+      "min_neg": 985,
+      "max_neg": 2038
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 269,
+      "cash": 31,
+      "min_neg": 29,
+      "max_neg": 235
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-kingsbrook-jewish-medical-center",
+      "hospital_slug": "kingsbrook-jewish-medical-center",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": 1188,
+      "cash": null,
+      "min_neg": 597,
+      "max_neg": 1236
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 114,
+      "cash": 74,
+      "min_neg": 3,
+      "max_neg": 160
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "automated-urinalysis-without-microscopy",
+      "gross": 92,
+      "cash": 60,
+      "min_neg": 2,
+      "max_neg": 129
+    },
+    {
+      "slug": "basic-metabolic-panel-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 186,
+      "cash": 121,
+      "min_neg": 7,
+      "max_neg": 261
+    },
+    {
+      "slug": "breast-growth-removal-open-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": null,
+      "cash": null,
+      "min_neg": 434,
+      "max_neg": 15103
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": null,
+      "cash": null,
+      "min_neg": 556,
+      "max_neg": 12505
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": null,
+      "cash": null,
+      "min_neg": 607,
+      "max_neg": 8902
+    },
+    {
+      "slug": "chest-x-ray-2-views-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 903,
+      "cash": 587,
+      "min_neg": 15,
+      "max_neg": 1422
+    },
+    {
+      "slug": "clotting-time-prothrombin-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 99,
+      "cash": 64,
+      "min_neg": 4,
+      "max_neg": 139
+    },
+    {
+      "slug": "colonoscopy-diagnostic-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": 1688,
+      "cash": 1097,
+      "min_neg": 174,
+      "max_neg": 4771
+    },
+    {
+      "slug": "complete-blood-count-with-differential-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 128,
+      "cash": 83,
+      "min_neg": 3,
+      "max_neg": 180
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 290,
+      "cash": 189,
+      "min_neg": 9,
+      "max_neg": 407
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 4914,
+      "cash": 3194,
+      "min_neg": 109,
+      "max_neg": 7740
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 3213,
+      "cash": 2088,
+      "min_neg": 111,
+      "max_neg": 5060
+    },
+    {
+      "slug": "ct-chest-without-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 2916,
+      "cash": 1895,
+      "min_neg": 111,
+      "max_neg": 4593
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 2295,
+      "cash": 1492,
+      "min_neg": 111,
+      "max_neg": 3615
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 3132,
+      "cash": 2036,
+      "min_neg": 172,
+      "max_neg": 4933
+    },
+    {
+      "slug": "dexa-bone-density-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 1965,
+      "cash": 1277,
+      "min_neg": 41,
+      "max_neg": 3095
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 1178,
+      "cash": 766,
+      "min_neg": 98,
+      "max_neg": 1855
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 913,
+      "cash": 593,
+      "min_neg": 84,
+      "max_neg": 1438
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 2187,
+      "cash": 1422,
+      "min_neg": 94,
+      "max_neg": 1750
+    },
+    {
+      "slug": "ecg-routine-with-interpretation-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ecg-routine-with-interpretation",
+      "gross": null,
+      "cash": null,
+      "min_neg": 15,
+      "max_neg": 126
+    },
+    {
+      "slug": "echocardiogram-transthoracic-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 5992,
+      "cash": 3895,
+      "min_neg": 188,
+      "max_neg": 2803
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 2688,
+      "cash": 1747,
+      "min_neg": 124,
+      "max_neg": 4538
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 291,
+      "cash": 189,
+      "min_neg": 10,
+      "max_neg": 409
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 2661,
+      "cash": 1730,
+      "min_neg": 52,
+      "max_neg": 2129
+    },
+    {
+      "slug": "kidney-function-panel-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "kidney-function-panel",
+      "gross": 104,
+      "cash": 68,
+      "min_neg": 9,
+      "max_neg": 146
+    },
+    {
+      "slug": "lipid-panel-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "lipid-panel",
+      "gross": 206,
+      "cash": 134,
+      "min_neg": 6,
+      "max_neg": 289
+    },
+    {
+      "slug": "liver-function-blood-test-panel-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 136,
+      "cash": 88,
+      "min_neg": 7,
+      "max_neg": 191
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 2660,
+      "cash": 1729,
+      "min_neg": 53,
+      "max_neg": 3621
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 6527,
+      "cash": 4242,
+      "min_neg": 334,
+      "max_neg": 10279
+    },
+    {
+      "slug": "mri-brain-without-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 4218,
+      "cash": 2742,
+      "min_neg": 205,
+      "max_neg": 6643
+    },
+    {
+      "slug": "mri-knee-without-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 3848,
+      "cash": 2501,
+      "min_neg": 213,
+      "max_neg": 6060
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 4218,
+      "cash": 2742,
+      "min_neg": 199,
+      "max_neg": 6643
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 3848,
+      "cash": 2501,
+      "min_neg": 213,
+      "max_neg": 6060
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 943,
+      "cash": 613,
+      "min_neg": 56,
+      "max_neg": 1485
+    },
+    {
+      "slug": "office-visit-established-patient-l3-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "office-visit-established-patient-l3",
+      "gross": 509,
+      "cash": 331,
+      "min_neg": 73,
+      "max_neg": 647
+    },
+    {
+      "slug": "office-visit-established-patient-l4-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "office-visit-established-patient-l4",
+      "gross": 696,
+      "cash": 452,
+      "min_neg": 108,
+      "max_neg": 909
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 892,
+      "cash": 580,
+      "min_neg": 21,
+      "max_neg": 1253
+    },
+    {
+      "slug": "physical-therapy-evaluation-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 511,
+      "cash": 332,
+      "min_neg": 111,
+      "max_neg": 782
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 396,
+      "cash": 257,
+      "min_neg": 32,
+      "max_neg": 317
+    },
+    {
+      "slug": "prostate-biopsy-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "prostate-biopsy",
+      "gross": 5852,
+      "cash": 3804,
+      "min_neg": 74,
+      "max_neg": 5144
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 258,
+      "cash": 168,
+      "min_neg": 18,
+      "max_neg": 362
+    },
+    {
+      "slug": "routine-venipuncture-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 52,
+      "cash": 34,
+      "min_neg": 2,
+      "max_neg": 42
+    },
+    {
+      "slug": "screening-mammogram-bilateral-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 906,
+      "cash": 589,
+      "min_neg": 89,
+      "max_neg": 1427
+    },
+    {
+      "slug": "sleep-study-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "sleep-study",
+      "gross": 12500,
+      "cash": 8125,
+      "min_neg": 579,
+      "max_neg": 10000
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": 1961,
+      "cash": 1275,
+      "min_neg": 111,
+      "max_neg": 3621
+    },
+    {
+      "slug": "spirometry-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "spirometry",
+      "gross": 1032,
+      "cash": 671,
+      "min_neg": 15,
+      "max_neg": 1108
+    },
+    {
+      "slug": "therapeutic-injection-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 1630,
+      "cash": 1060,
+      "min_neg": 13,
+      "max_neg": 1304
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 250,
+      "cash": 163,
+      "min_neg": 9,
+      "max_neg": 351
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 1357,
+      "cash": 882,
+      "min_neg": 61,
+      "max_neg": 2137
+    },
+    {
+      "slug": "ultrasound-breast-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ultrasound-breast",
+      "gross": 1254,
+      "cash": 815,
+      "min_neg": 27,
+      "max_neg": 1975
+    },
+    {
+      "slug": "ultrasound-thyroid-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 1852,
+      "cash": 1204,
+      "min_neg": 30,
+      "max_neg": 2917
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 1454,
+      "cash": 945,
+      "min_neg": 59,
+      "max_neg": 2290
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": null,
+      "cash": null,
+      "min_neg": 110,
+      "max_neg": 3498
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": 1985,
+      "cash": 1290,
+      "min_neg": 131,
+      "max_neg": 4653
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 989,
+      "cash": 643,
+      "min_neg": 30,
+      "max_neg": 1558
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-montefiore-medical-center",
+      "hospital_slug": "montefiore-medical-center",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": 1693,
+      "cash": 1100,
+      "min_neg": 282,
+      "max_neg": 3905
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 30,
+      "cash": 4,
+      "min_neg": 3,
+      "max_neg": 164
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "automated-urinalysis-without-microscopy",
+      "gross": 105,
+      "cash": 3,
+      "min_neg": 2,
+      "max_neg": 164
+    },
+    {
+      "slug": "basic-metabolic-panel-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 179,
+      "cash": 10,
+      "min_neg": 7,
+      "max_neg": 199
+    },
+    {
+      "slug": "breast-growth-removal-open-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": 7751,
+      "cash": 1473,
+      "min_neg": 2100,
+      "max_neg": 7751
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": 28720,
+      "cash": 5457,
+      "min_neg": 657,
+      "max_neg": 28720
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": null,
+      "cash": null,
+      "min_neg": 2690,
+      "max_neg": 4841
+    },
+    {
+      "slug": "chest-x-ray-2-views-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 245,
+      "cash": 46,
+      "min_neg": 24,
+      "max_neg": 274
+    },
+    {
+      "slug": "clotting-time-prothrombin-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 172,
+      "cash": 5,
+      "min_neg": 4,
+      "max_neg": 172
+    },
+    {
+      "slug": "colonoscopy-diagnostic-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": 1851,
+      "cash": 352,
+      "min_neg": 740,
+      "max_neg": 1967
+    },
+    {
+      "slug": "complete-blood-count-with-differential-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 139,
+      "cash": 9,
+      "min_neg": 3,
+      "max_neg": 165
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 326,
+      "cash": 13,
+      "min_neg": 10,
+      "max_neg": 326
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 8252,
+      "cash": 1568,
+      "min_neg": 231,
+      "max_neg": 8252
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 3961,
+      "cash": 753,
+      "min_neg": 87,
+      "max_neg": 3961
+    },
+    {
+      "slug": "ct-chest-without-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 4227,
+      "cash": 803,
+      "min_neg": 89,
+      "max_neg": 4227
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 3297,
+      "cash": 627,
+      "min_neg": 72,
+      "max_neg": 3297
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 5415,
+      "cash": 1029,
+      "min_neg": 185,
+      "max_neg": 5415
+    },
+    {
+      "slug": "dexa-bone-density-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 560,
+      "cash": 106,
+      "min_neg": 32,
+      "max_neg": 560
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 1719,
+      "cash": 327,
+      "min_neg": 117,
+      "max_neg": 1719
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 1427,
+      "cash": 271,
+      "min_neg": 92,
+      "max_neg": 1427
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 1617,
+      "cash": 307,
+      "min_neg": 102,
+      "max_neg": 1617
+    },
+    {
+      "slug": "echocardiogram-transthoracic-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 3310,
+      "cash": 629,
+      "min_neg": 133,
+      "max_neg": 3310
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 6346,
+      "cash": 1206,
+      "min_neg": 816,
+      "max_neg": 6346
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 100,
+      "cash": 12,
+      "min_neg": 9,
+      "max_neg": 155
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 6722,
+      "cash": 1277,
+      "min_neg": 486,
+      "max_neg": 6722
+    },
+    {
+      "slug": "kidney-function-panel-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "kidney-function-panel",
+      "gross": 93,
+      "cash": 10,
+      "min_neg": 8,
+      "max_neg": 199
+    },
+    {
+      "slug": "lipid-panel-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "lipid-panel",
+      "gross": 148,
+      "cash": 16,
+      "min_neg": 6,
+      "max_neg": 199
+    },
+    {
+      "slug": "liver-function-blood-test-panel-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 74,
+      "cash": 10,
+      "min_neg": 7,
+      "max_neg": 199
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 6287,
+      "cash": 1194,
+      "min_neg": 816,
+      "max_neg": 6287
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 9301,
+      "cash": 1767,
+      "min_neg": 227,
+      "max_neg": 9301
+    },
+    {
+      "slug": "mri-brain-without-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 5488,
+      "cash": 1043,
+      "min_neg": 137,
+      "max_neg": 5488
+    },
+    {
+      "slug": "mri-knee-without-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 6326,
+      "cash": 1202,
+      "min_neg": 150,
+      "max_neg": 6326
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 5967,
+      "cash": 1134,
+      "min_neg": 131,
+      "max_neg": 5967
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 6326,
+      "cash": 1202,
+      "min_neg": 150,
+      "max_neg": 6326
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 3323,
+      "cash": 631,
+      "min_neg": 92,
+      "max_neg": 3323
+    },
+    {
+      "slug": "office-visit-established-patient-l3-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "office-visit-established-patient-l3",
+      "gross": 1570,
+      "cash": 298,
+      "min_neg": 66,
+      "max_neg": 1570
+    },
+    {
+      "slug": "office-visit-established-patient-l4-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "office-visit-established-patient-l4",
+      "gross": 1570,
+      "cash": 298,
+      "min_neg": 97,
+      "max_neg": 1570
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 1642,
+      "cash": 312,
+      "min_neg": 16,
+      "max_neg": 1642
+    },
+    {
+      "slug": "physical-therapy-evaluation-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 842,
+      "cash": 160,
+      "min_neg": 101,
+      "max_neg": 842
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 397,
+      "cash": 75,
+      "min_neg": 30,
+      "max_neg": 397
+    },
+    {
+      "slug": "prostate-biopsy-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "prostate-biopsy",
+      "gross": 2255,
+      "cash": 428,
+      "min_neg": 902,
+      "max_neg": 4735
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 191,
+      "cash": 22,
+      "min_neg": 17,
+      "max_neg": 191
+    },
+    {
+      "slug": "routine-venipuncture-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 46,
+      "cash": 11,
+      "min_neg": 2,
+      "max_neg": 283
+    },
+    {
+      "slug": "screening-mammogram-bilateral-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 1490,
+      "cash": 283,
+      "min_neg": 97,
+      "max_neg": 1490
+    },
+    {
+      "slug": "sleep-study-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "sleep-study",
+      "gross": 5107,
+      "cash": 970,
+      "min_neg": 539,
+      "max_neg": 5958
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": 8934,
+      "cash": 1698,
+      "min_neg": 816,
+      "max_neg": 8934
+    },
+    {
+      "slug": "spirometry-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "spirometry",
+      "gross": 718,
+      "cash": 137,
+      "min_neg": 20,
+      "max_neg": 718
+    },
+    {
+      "slug": "therapeutic-injection-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 1371,
+      "cash": 261,
+      "min_neg": 13,
+      "max_neg": 1371
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 161,
+      "cash": 20,
+      "min_neg": 9,
+      "max_neg": 197
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 1971,
+      "cash": 375,
+      "min_neg": 81,
+      "max_neg": 1971
+    },
+    {
+      "slug": "ultrasound-breast-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ultrasound-breast",
+      "gross": 1356,
+      "cash": 258,
+      "min_neg": 55,
+      "max_neg": 1356
+    },
+    {
+      "slug": "ultrasound-thyroid-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 1971,
+      "cash": 375,
+      "min_neg": 73,
+      "max_neg": 1971
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 2140,
+      "cash": 407,
+      "min_neg": 78,
+      "max_neg": 2140
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": 3344,
+      "cash": 635,
+      "min_neg": 1133,
+      "max_neg": 3344
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": 1464,
+      "cash": 278,
+      "min_neg": 586,
+      "max_neg": 2039
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 470,
+      "cash": 89,
+      "min_neg": 41,
+      "max_neg": 470
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-nyu-langone-brooklyn",
+      "hospital_slug": "nyu-langone-brooklyn",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": 3432,
+      "cash": 652,
+      "min_neg": 799,
+      "max_neg": 3432
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 68,
+      "cash": 4,
+      "min_neg": 3,
+      "max_neg": 80
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "automated-urinalysis-without-microscopy",
+      "gross": 105,
+      "cash": 3,
+      "min_neg": 2,
+      "max_neg": 105
+    },
+    {
+      "slug": "basic-metabolic-panel-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 265,
+      "cash": 10,
+      "min_neg": 7,
+      "max_neg": 265
+    },
+    {
+      "slug": "breast-growth-removal-open-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": 7751,
+      "cash": 1473,
+      "min_neg": 2100,
+      "max_neg": 7751
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": 28720,
+      "cash": 5457,
+      "min_neg": 657,
+      "max_neg": 28720
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": null,
+      "cash": null,
+      "min_neg": 2690,
+      "max_neg": 4841
+    },
+    {
+      "slug": "chest-x-ray-2-views-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 257,
+      "cash": 49,
+      "min_neg": 24,
+      "max_neg": 274
+    },
+    {
+      "slug": "clotting-time-prothrombin-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 172,
+      "cash": 5,
+      "min_neg": 4,
+      "max_neg": 172
+    },
+    {
+      "slug": "colonoscopy-diagnostic-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": 1851,
+      "cash": 352,
+      "min_neg": 1093,
+      "max_neg": 1967
+    },
+    {
+      "slug": "complete-blood-count-with-differential-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 265,
+      "cash": 9,
+      "min_neg": 3,
+      "max_neg": 265
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 941,
+      "cash": 13,
+      "min_neg": 10,
+      "max_neg": 941
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 8252,
+      "cash": 1568,
+      "min_neg": 231,
+      "max_neg": 8252
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 4355,
+      "cash": 827,
+      "min_neg": 87,
+      "max_neg": 4355
+    },
+    {
+      "slug": "ct-chest-without-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 4666,
+      "cash": 887,
+      "min_neg": 89,
+      "max_neg": 4666
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 4868,
+      "cash": 925,
+      "min_neg": 72,
+      "max_neg": 4868
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 5415,
+      "cash": 1029,
+      "min_neg": 185,
+      "max_neg": 5415
+    },
+    {
+      "slug": "dexa-bone-density-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 588,
+      "cash": 112,
+      "min_neg": 32,
+      "max_neg": 588
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 1719,
+      "cash": 327,
+      "min_neg": 117,
+      "max_neg": 1719
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 1427,
+      "cash": 271,
+      "min_neg": 92,
+      "max_neg": 1427
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 2271,
+      "cash": 431,
+      "min_neg": 102,
+      "max_neg": 2271
+    },
+    {
+      "slug": "echocardiogram-transthoracic-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 3475,
+      "cash": 660,
+      "min_neg": 133,
+      "max_neg": 3475
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 6346,
+      "cash": 1206,
+      "min_neg": 816,
+      "max_neg": 6346
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 100,
+      "cash": 12,
+      "min_neg": 9,
+      "max_neg": 100
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 6722,
+      "cash": 1277,
+      "min_neg": 486,
+      "max_neg": 6722
+    },
+    {
+      "slug": "kidney-function-panel-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "kidney-function-panel",
+      "gross": 93,
+      "cash": 10,
+      "min_neg": 8,
+      "max_neg": 105
+    },
+    {
+      "slug": "lipid-panel-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "lipid-panel",
+      "gross": 194,
+      "cash": 16,
+      "min_neg": 6,
+      "max_neg": 194
+    },
+    {
+      "slug": "liver-function-blood-test-panel-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 275,
+      "cash": 10,
+      "min_neg": 7,
+      "max_neg": 275
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 6287,
+      "cash": 1194,
+      "min_neg": 816,
+      "max_neg": 6287
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 12541,
+      "cash": 2383,
+      "min_neg": 227,
+      "max_neg": 12541
+    },
+    {
+      "slug": "mri-brain-without-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 8598,
+      "cash": 1634,
+      "min_neg": 137,
+      "max_neg": 8598
+    },
+    {
+      "slug": "mri-knee-without-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 6326,
+      "cash": 1202,
+      "min_neg": 150,
+      "max_neg": 6326
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 7273,
+      "cash": 1382,
+      "min_neg": 131,
+      "max_neg": 7273
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 6326,
+      "cash": 1202,
+      "min_neg": 150,
+      "max_neg": 6326
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 3323,
+      "cash": 631,
+      "min_neg": 92,
+      "max_neg": 3323
+    },
+    {
+      "slug": "office-visit-established-patient-l3-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "office-visit-established-patient-l3",
+      "gross": 1570,
+      "cash": 298,
+      "min_neg": 66,
+      "max_neg": 1570
+    },
+    {
+      "slug": "office-visit-established-patient-l4-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "office-visit-established-patient-l4",
+      "gross": 1570,
+      "cash": 298,
+      "min_neg": 97,
+      "max_neg": 1570
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 1642,
+      "cash": 312,
+      "min_neg": 16,
+      "max_neg": 1642
+    },
+    {
+      "slug": "physical-therapy-evaluation-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 842,
+      "cash": 160,
+      "min_neg": 101,
+      "max_neg": 842
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 397,
+      "cash": 75,
+      "min_neg": 30,
+      "max_neg": 397
+    },
+    {
+      "slug": "prostate-biopsy-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "prostate-biopsy",
+      "gross": 2255,
+      "cash": 428,
+      "min_neg": 1759,
+      "max_neg": 4735
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 207,
+      "cash": 22,
+      "min_neg": 17,
+      "max_neg": 207
+    },
+    {
+      "slug": "routine-venipuncture-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 46,
+      "cash": 11,
+      "min_neg": 2,
+      "max_neg": 283
+    },
+    {
+      "slug": "screening-mammogram-bilateral-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 1490,
+      "cash": 283,
+      "min_neg": 97,
+      "max_neg": 1490
+    },
+    {
+      "slug": "sleep-study-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "sleep-study",
+      "gross": 17284,
+      "cash": 3284,
+      "min_neg": 539,
+      "max_neg": 17284
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": 8934,
+      "cash": 1698,
+      "min_neg": 816,
+      "max_neg": 8934
+    },
+    {
+      "slug": "spirometry-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "spirometry",
+      "gross": 718,
+      "cash": 137,
+      "min_neg": 20,
+      "max_neg": 718
+    },
+    {
+      "slug": "therapeutic-injection-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 1371,
+      "cash": 13,
+      "min_neg": 13,
+      "max_neg": 1371
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 226,
+      "cash": 20,
+      "min_neg": 9,
+      "max_neg": 226
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 1971,
+      "cash": 375,
+      "min_neg": 81,
+      "max_neg": 1971
+    },
+    {
+      "slug": "ultrasound-breast-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ultrasound-breast",
+      "gross": 1356,
+      "cash": 258,
+      "min_neg": 55,
+      "max_neg": 1356
+    },
+    {
+      "slug": "ultrasound-thyroid-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 1971,
+      "cash": 375,
+      "min_neg": 73,
+      "max_neg": 1971
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 2140,
+      "cash": 407,
+      "min_neg": 78,
+      "max_neg": 2140
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": 3344,
+      "cash": 635,
+      "min_neg": 1133,
+      "max_neg": 3344
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": 1464,
+      "cash": 278,
+      "min_neg": 1133,
+      "max_neg": 2039
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 494,
+      "cash": 94,
+      "min_neg": 41,
+      "max_neg": 494
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-nyu-langone-long-island",
+      "hospital_slug": "nyu-langone-long-island",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": 3432,
+      "cash": 652,
+      "min_neg": 799,
+      "max_neg": 3432
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 30,
+      "cash": 4,
+      "min_neg": 3,
+      "max_neg": 169
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "automated-urinalysis-without-microscopy",
+      "gross": 105,
+      "cash": 3,
+      "min_neg": 2,
+      "max_neg": 169
+    },
+    {
+      "slug": "basic-metabolic-panel-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 179,
+      "cash": 10,
+      "min_neg": 7,
+      "max_neg": 204
+    },
+    {
+      "slug": "breast-growth-removal-open-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": 7751,
+      "cash": 1473,
+      "min_neg": 2100,
+      "max_neg": 7751
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": 28720,
+      "cash": 5457,
+      "min_neg": 657,
+      "max_neg": 28720
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": null,
+      "cash": null,
+      "min_neg": 2690,
+      "max_neg": 4841
+    },
+    {
+      "slug": "chest-x-ray-2-views-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 245,
+      "cash": 46,
+      "min_neg": 24,
+      "max_neg": 274
+    },
+    {
+      "slug": "clotting-time-prothrombin-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 172,
+      "cash": 5,
+      "min_neg": 4,
+      "max_neg": 172
+    },
+    {
+      "slug": "colonoscopy-diagnostic-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": 1851,
+      "cash": 352,
+      "min_neg": 1093,
+      "max_neg": 1967
+    },
+    {
+      "slug": "complete-blood-count-with-differential-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 139,
+      "cash": 9,
+      "min_neg": 3,
+      "max_neg": 170
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 326,
+      "cash": 13,
+      "min_neg": 10,
+      "max_neg": 326
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 8252,
+      "cash": 1568,
+      "min_neg": 231,
+      "max_neg": 8252
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 3961,
+      "cash": 753,
+      "min_neg": 87,
+      "max_neg": 3961
+    },
+    {
+      "slug": "ct-chest-without-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 4227,
+      "cash": 803,
+      "min_neg": 89,
+      "max_neg": 4227
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 3297,
+      "cash": 627,
+      "min_neg": 72,
+      "max_neg": 3297
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 5415,
+      "cash": 1029,
+      "min_neg": 185,
+      "max_neg": 5415
+    },
+    {
+      "slug": "dexa-bone-density-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 560,
+      "cash": 106,
+      "min_neg": 32,
+      "max_neg": 560
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 1719,
+      "cash": 327,
+      "min_neg": 117,
+      "max_neg": 1719
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 1427,
+      "cash": 271,
+      "min_neg": 92,
+      "max_neg": 1427
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 1617,
+      "cash": 307,
+      "min_neg": 102,
+      "max_neg": 1617
+    },
+    {
+      "slug": "echocardiogram-transthoracic-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 3310,
+      "cash": 629,
+      "min_neg": 133,
+      "max_neg": 3310
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 6346,
+      "cash": 1206,
+      "min_neg": 816,
+      "max_neg": 6346
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 100,
+      "cash": 12,
+      "min_neg": 9,
+      "max_neg": 160
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 6722,
+      "cash": 1277,
+      "min_neg": 486,
+      "max_neg": 6722
+    },
+    {
+      "slug": "kidney-function-panel-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "kidney-function-panel",
+      "gross": 93,
+      "cash": 10,
+      "min_neg": 8,
+      "max_neg": 204
+    },
+    {
+      "slug": "lipid-panel-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "lipid-panel",
+      "gross": 148,
+      "cash": 16,
+      "min_neg": 6,
+      "max_neg": 204
+    },
+    {
+      "slug": "liver-function-blood-test-panel-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 74,
+      "cash": 10,
+      "min_neg": 7,
+      "max_neg": 204
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 6287,
+      "cash": 1194,
+      "min_neg": 816,
+      "max_neg": 6287
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 9301,
+      "cash": 1767,
+      "min_neg": 227,
+      "max_neg": 9301
+    },
+    {
+      "slug": "mri-brain-without-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 5488,
+      "cash": 1043,
+      "min_neg": 137,
+      "max_neg": 5488
+    },
+    {
+      "slug": "mri-knee-without-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 6326,
+      "cash": 1202,
+      "min_neg": 150,
+      "max_neg": 6326
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 5967,
+      "cash": 1134,
+      "min_neg": 131,
+      "max_neg": 5967
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 6326,
+      "cash": 1202,
+      "min_neg": 150,
+      "max_neg": 6326
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 3323,
+      "cash": 631,
+      "min_neg": 92,
+      "max_neg": 3323
+    },
+    {
+      "slug": "office-visit-established-patient-l3-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "office-visit-established-patient-l3",
+      "gross": 1570,
+      "cash": 298,
+      "min_neg": 66,
+      "max_neg": 1570
+    },
+    {
+      "slug": "office-visit-established-patient-l4-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "office-visit-established-patient-l4",
+      "gross": 1570,
+      "cash": 298,
+      "min_neg": 97,
+      "max_neg": 1570
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 1642,
+      "cash": 312,
+      "min_neg": 16,
+      "max_neg": 1642
+    },
+    {
+      "slug": "physical-therapy-evaluation-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 842,
+      "cash": 160,
+      "min_neg": 101,
+      "max_neg": 842
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 397,
+      "cash": 75,
+      "min_neg": 30,
+      "max_neg": 397
+    },
+    {
+      "slug": "prostate-biopsy-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "prostate-biopsy",
+      "gross": 2255,
+      "cash": 428,
+      "min_neg": 1759,
+      "max_neg": 4735
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 191,
+      "cash": 22,
+      "min_neg": 17,
+      "max_neg": 191
+    },
+    {
+      "slug": "routine-venipuncture-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 46,
+      "cash": 11,
+      "min_neg": 2,
+      "max_neg": 283
+    },
+    {
+      "slug": "screening-mammogram-bilateral-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 1490,
+      "cash": 283,
+      "min_neg": 97,
+      "max_neg": 1490
+    },
+    {
+      "slug": "sleep-study-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "sleep-study",
+      "gross": 5107,
+      "cash": 970,
+      "min_neg": 539,
+      "max_neg": 5958
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": 8934,
+      "cash": 1698,
+      "min_neg": 816,
+      "max_neg": 8934
+    },
+    {
+      "slug": "spirometry-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "spirometry",
+      "gross": 718,
+      "cash": 137,
+      "min_neg": 20,
+      "max_neg": 718
+    },
+    {
+      "slug": "therapeutic-injection-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 1371,
+      "cash": 261,
+      "min_neg": 13,
+      "max_neg": 1371
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 161,
+      "cash": 20,
+      "min_neg": 9,
+      "max_neg": 203
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 1971,
+      "cash": 375,
+      "min_neg": 81,
+      "max_neg": 1971
+    },
+    {
+      "slug": "ultrasound-breast-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ultrasound-breast",
+      "gross": 1356,
+      "cash": 258,
+      "min_neg": 55,
+      "max_neg": 1356
+    },
+    {
+      "slug": "ultrasound-thyroid-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 1971,
+      "cash": 375,
+      "min_neg": 73,
+      "max_neg": 1971
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 2140,
+      "cash": 407,
+      "min_neg": 78,
+      "max_neg": 2140
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": 3344,
+      "cash": 635,
+      "min_neg": 1133,
+      "max_neg": 3344
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": 1464,
+      "cash": 278,
+      "min_neg": 1133,
+      "max_neg": 2039
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 470,
+      "cash": 89,
+      "min_neg": 41,
+      "max_neg": 470
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-nyu-langone-tisch-hospital",
+      "hospital_slug": "nyu-langone-tisch-hospital",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": 3432,
+      "cash": 652,
+      "min_neg": 799,
+      "max_neg": 3432
+    },
+    {
+      "slug": "automated-urinalysis-with-microscopy-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "automated-urinalysis-with-microscopy",
+      "gross": 10,
+      "cash": null,
+      "min_neg": 2,
+      "max_neg": 8
+    },
+    {
+      "slug": "automated-urinalysis-without-microscopy-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "automated-urinalysis-without-microscopy",
+      "gross": 5,
+      "cash": null,
+      "min_neg": 2,
+      "max_neg": 5
+    },
+    {
+      "slug": "basic-metabolic-panel-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "basic-metabolic-panel",
+      "gross": 21,
+      "cash": null,
+      "min_neg": 6,
+      "max_neg": 16
+    },
+    {
+      "slug": "breast-growth-removal-open-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "breast-growth-removal-open",
+      "gross": 9175,
+      "cash": null,
+      "min_neg": 1468,
+      "max_neg": 6881
+    },
+    {
+      "slug": "cardiac-catheterization-left-heart-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "cardiac-catheterization-left-heart",
+      "gross": 8631,
+      "cash": null,
+      "min_neg": 1656,
+      "max_neg": 6937
+    },
+    {
+      "slug": "cataract-surgery-with-lens-insertion-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "cataract-surgery-with-lens-insertion",
+      "gross": 6123,
+      "cash": null,
+      "min_neg": 184,
+      "max_neg": 4065
+    },
+    {
+      "slug": "chest-x-ray-2-views-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "chest-x-ray-2-views",
+      "gross": 241,
+      "cash": null,
+      "min_neg": 16,
+      "max_neg": 193
+    },
+    {
+      "slug": "clotting-time-prothrombin-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "clotting-time-prothrombin",
+      "gross": 10,
+      "cash": null,
+      "min_neg": 3,
+      "max_neg": 9
+    },
+    {
+      "slug": "colonoscopy-diagnostic-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "colonoscopy-diagnostic",
+      "gross": 2313,
+      "cash": null,
+      "min_neg": 489,
+      "max_neg": 3093
+    },
+    {
+      "slug": "complete-blood-count-with-differential-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "complete-blood-count-with-differential",
+      "gross": 19,
+      "cash": null,
+      "min_neg": 3,
+      "max_neg": 14
+    },
+    {
+      "slug": "comprehensive-metabolic-panel-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "comprehensive-metabolic-panel",
+      "gross": 26,
+      "cash": null,
+      "min_neg": 7,
+      "max_neg": 23
+    },
+    {
+      "slug": "ct-abdomen-and-pelvis-with-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ct-abdomen-and-pelvis-with-contrast",
+      "gross": 1156,
+      "cash": null,
+      "min_neg": 206,
+      "max_neg": 867
+    },
+    {
+      "slug": "ct-abdomen-without-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ct-abdomen-without-contrast",
+      "gross": 339,
+      "cash": null,
+      "min_neg": 87,
+      "max_neg": 415
+    },
+    {
+      "slug": "ct-chest-without-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ct-chest-without-contrast",
+      "gross": 339,
+      "cash": null,
+      "min_neg": 89,
+      "max_neg": 448
+    },
+    {
+      "slug": "ct-headbrain-without-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ct-headbrain-without-contrast",
+      "gross": 339,
+      "cash": null,
+      "min_neg": 72,
+      "max_neg": 415
+    },
+    {
+      "slug": "ct-pelvis-with-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ct-pelvis-with-contrast",
+      "gross": 551,
+      "cash": null,
+      "min_neg": 175,
+      "max_neg": 642
+    },
+    {
+      "slug": "dexa-bone-density-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "dexa-bone-density",
+      "gross": 339,
+      "cash": null,
+      "min_neg": 24,
+      "max_neg": 254
+    },
+    {
+      "slug": "diagnostic-mammography-bilateral-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "diagnostic-mammography-bilateral",
+      "gross": 502,
+      "cash": null,
+      "min_neg": 95,
+      "max_neg": 402
+    },
+    {
+      "slug": "diagnostic-mammography-unilateral-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "diagnostic-mammography-unilateral",
+      "gross": 399,
+      "cash": null,
+      "min_neg": 75,
+      "max_neg": 319
+    },
+    {
+      "slug": "duplex-scan-extremity-veins-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "duplex-scan-extremity-veins",
+      "gross": 339,
+      "cash": null,
+      "min_neg": 91,
+      "max_neg": 271
+    },
+    {
+      "slug": "ecg-routine-with-interpretation-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ecg-routine-with-interpretation",
+      "gross": 145,
+      "cash": null,
+      "min_neg": 15,
+      "max_neg": 116
+    },
+    {
+      "slug": "echocardiogram-transthoracic-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "echocardiogram-transthoracic",
+      "gross": 1458,
+      "cash": null,
+      "min_neg": 147,
+      "max_neg": 1166
+    },
+    {
+      "slug": "epidural-steroid-injection-with-imaging-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "epidural-steroid-injection-with-imaging",
+      "gross": 2459,
+      "cash": null,
+      "min_neg": 478,
+      "max_neg": 3093
+    },
+    {
+      "slug": "hba1c-hemoglobin-a1c-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "hba1c-hemoglobin-a1c",
+      "gross": 24,
+      "cash": null,
+      "min_neg": 7,
+      "max_neg": 22
+    },
+    {
+      "slug": "joint-injection-major-kneeshoulderhip-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "joint-injection-major-kneeshoulderhip",
+      "gross": 1229,
+      "cash": null,
+      "min_neg": 34,
+      "max_neg": 3093
+    },
+    {
+      "slug": "kidney-function-panel-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "kidney-function-panel",
+      "gross": 78,
+      "cash": null,
+      "min_neg": 6,
+      "max_neg": 59
+    },
+    {
+      "slug": "lipid-panel-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "lipid-panel",
+      "gross": 33,
+      "cash": null,
+      "min_neg": 6,
+      "max_neg": 25
+    },
+    {
+      "slug": "liver-function-blood-test-panel-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "liver-function-blood-test-panel",
+      "gross": 20,
+      "cash": null,
+      "min_neg": 6,
+      "max_neg": 16
+    },
+    {
+      "slug": "lumbar-puncture-diagnostic-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "lumbar-puncture-diagnostic",
+      "gross": 1893,
+      "cash": null,
+      "min_neg": 184,
+      "max_neg": 3093
+    },
+    {
+      "slug": "mri-brain-with-and-without-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "mri-brain-with-and-without-contrast",
+      "gross": 1156,
+      "cash": null,
+      "min_neg": 227,
+      "max_neg": 1158
+    },
+    {
+      "slug": "mri-brain-without-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "mri-brain-without-contrast",
+      "gross": 705,
+      "cash": null,
+      "min_neg": 137,
+      "max_neg": 752
+    },
+    {
+      "slug": "mri-knee-without-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "mri-knee-without-contrast",
+      "gross": 705,
+      "cash": null,
+      "min_neg": 150,
+      "max_neg": 743
+    },
+    {
+      "slug": "mri-lumbar-spine-without-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "mri-lumbar-spine-without-contrast",
+      "gross": 705,
+      "cash": null,
+      "min_neg": 131,
+      "max_neg": 753
+    },
+    {
+      "slug": "mri-shoulder-without-contrast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "mri-shoulder-without-contrast",
+      "gross": 705,
+      "cash": null,
+      "min_neg": 150,
+      "max_neg": 743
+    },
+    {
+      "slug": "ob-ultrasound-14-weeks-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ob-ultrasound-14-weeks",
+      "gross": 339,
+      "cash": null,
+      "min_neg": 72,
+      "max_neg": 344
+    },
+    {
+      "slug": "office-visit-established-patient-l3-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "office-visit-established-patient-l3",
+      "gross": 75,
+      "cash": null,
+      "min_neg": 26,
+      "max_neg": 250
+    },
+    {
+      "slug": "office-visit-established-patient-l4-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "office-visit-established-patient-l4",
+      "gross": 112,
+      "cash": null,
+      "min_neg": 39,
+      "max_neg": 250
+    },
+    {
+      "slug": "pathology-tissue-exam-level-iv-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "pathology-tissue-exam-level-iv",
+      "gross": 149,
+      "cash": null,
+      "min_neg": 44,
+      "max_neg": 98
+    },
+    {
+      "slug": "physical-therapy-evaluation-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "physical-therapy-evaluation",
+      "gross": 249,
+      "cash": null,
+      "min_neg": 49,
+      "max_neg": 283
+    },
+    {
+      "slug": "physical-therapy-therapeutic-exercise-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "physical-therapy-therapeutic-exercise",
+      "gross": 89,
+      "cash": null,
+      "min_neg": 19,
+      "max_neg": 222
+    },
+    {
+      "slug": "prostate-biopsy-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "prostate-biopsy",
+      "gross": 5365,
+      "cash": null,
+      "min_neg": 256,
+      "max_neg": 4024
+    },
+    {
+      "slug": "psa-prostate-specific-antigen-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "psa-prostate-specific-antigen",
+      "gross": 45,
+      "cash": null,
+      "min_neg": 13,
+      "max_neg": 41
+    },
+    {
+      "slug": "routine-venipuncture-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "routine-venipuncture",
+      "gross": 9,
+      "cash": null,
+      "min_neg": 3,
+      "max_neg": 23
+    },
+    {
+      "slug": "screening-mammogram-bilateral-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "screening-mammogram-bilateral",
+      "gross": 402,
+      "cash": null,
+      "min_neg": 79,
+      "max_neg": 322
+    },
+    {
+      "slug": "sleep-study-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "sleep-study",
+      "gross": 2752,
+      "cash": null,
+      "min_neg": 184,
+      "max_neg": 2342
+    },
+    {
+      "slug": "spinal-injection-with-imaging-guidance-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "spinal-injection-with-imaging-guidance",
+      "gross": 1893,
+      "cash": null,
+      "min_neg": 282,
+      "max_neg": 3093
+    },
+    {
+      "slug": "spirometry-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "spirometry",
+      "gross": 419,
+      "cash": null,
+      "min_neg": 134,
+      "max_neg": 335
+    },
+    {
+      "slug": "therapeutic-injection-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "therapeutic-injection",
+      "gross": 172,
+      "cash": null,
+      "min_neg": 13,
+      "max_neg": 1336
+    },
+    {
+      "slug": "tsh-thyroid-stimulating-hormone-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "tsh-thyroid-stimulating-hormone",
+      "gross": 42,
+      "cash": null,
+      "min_neg": 9,
+      "max_neg": 32
+    },
+    {
+      "slug": "ultrasound-abdomen-complete-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ultrasound-abdomen-complete",
+      "gross": 320,
+      "cash": null,
+      "min_neg": 65,
+      "max_neg": 254
+    },
+    {
+      "slug": "ultrasound-breast-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ultrasound-breast",
+      "gross": 241,
+      "cash": null,
+      "min_neg": 43,
+      "max_neg": 193
+    },
+    {
+      "slug": "ultrasound-thyroid-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ultrasound-thyroid",
+      "gross": 339,
+      "cash": null,
+      "min_neg": 70,
+      "max_neg": 254
+    },
+    {
+      "slug": "ultrasound-transvaginal-non-pregnant-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "ultrasound-transvaginal-non-pregnant",
+      "gross": 339,
+      "cash": null,
+      "min_neg": 69,
+      "max_neg": 254
+    },
+    {
+      "slug": "upper-gi-endoscopy-diagnostic-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "upper-gi-endoscopy-diagnostic",
+      "gross": 2889,
+      "cash": null,
+      "min_neg": 503,
+      "max_neg": 3093
+    },
+    {
+      "slug": "upper-gi-endoscopy-with-biopsy-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "upper-gi-endoscopy-with-biopsy",
+      "gross": 2889,
+      "cash": null,
+      "min_neg": 503,
+      "max_neg": 3093
+    },
+    {
+      "slug": "x-ray-lumbar-spine-4-views-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "x-ray-lumbar-spine-4-views",
+      "gross": 327,
+      "cash": null,
+      "min_neg": 26,
+      "max_neg": 245
+    },
+    {
+      "slug": "yag-laser-capsulotomy-secondary-cataract-st-barnabas-hospital",
+      "hospital_slug": "st-barnabas-hospital",
+      "procedure_slug": "yag-laser-capsulotomy-secondary-cataract",
+      "gross": 1535,
+      "cash": null,
+      "min_neg": 184,
+      "max_neg": 1888
+    }
+  ]
+}
